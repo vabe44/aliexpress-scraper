@@ -7,9 +7,15 @@ var sleep = require('sleep');
 
 var a = "https:";
 
-var fileName = "iPhone_8_8_Plus.json";
+var fileName = "OTG_and_Adapter.json";
 var productLinks = [
-    "https://www.aliexpress.com/store/product/USAMS-For-iPhone-8-Glass-0-25mm-9H-3D-Carbon-Fiber-Full-Cover-Tempered-Glass-for/2008001_32845561907.html",
+    "https://www.aliexpress.com/store/product/Micro-USB-To-USB-OTG-USAMS-Adapter-2-0-Converter-For-Samsung-Galaxy-S5-Tablet-Pc/2008001_32829008905.html",
+    "https://www.aliexpress.com/store/product/USAMS-Metal-USB-C-Type-C-Male-to-USB-3-0-Female-for-xiaomi-4c-Type/2008001_32829076561.html",
+    "https://www.aliexpress.com/store/product/USAMS-2-in-1-For-Lightning-to-3-5mm-AUX-Plug-Adapter-for-iPhone-7-iPhone/2008001_32831795581.html",
+    "https://www.aliexpress.com/store/product/USAMS-For-iphone-5-6-7-Plus-TF-Card-128GB-Max-Expansion-Type-Adapter-Charging-For/2008001_32844051524.html",
+    "https://www.aliexpress.com/store/product/Micro-Usb-Cable-to-Usb-Type-C-Type-C-Adapter-USAMS-Data-Sync-Charging-For-Oneplus/2008001_32605763054.html",
+    "https://www.aliexpress.com/store/product/USAMS-HDMI-Cable-HDMI-to-8-pin-cable-2m-HDMI-4k-3D-60FPS-Cable-for-iPhone/2008001_32815707226.html",
+    "https://www.aliexpress.com/store/product/USAMS-Dual-Ports-For-iPhone-Adapter-Aluminum-Alloy-Charging-for-Lightning-OTG-for-iPhone-8-7/2008001_32841781882.html",
 ];
 
 app.get('/scrape', function (req, res) {
