@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Passport with Sequelize</title>
+</head>
+<body>
+
+    <h1>Format Helper</h1>
+    <textarea id="raw" rows="20" cols="100"></textarea>
+
+    <button type="button" onclick="format()">Format</button>
+
+    <h1>Result</h1>
+    <textarea id="result" rows="20" cols="100"></textarea>
+
+    <script>
+
+        function format() {
+
+            document.getElementById('result').value = "";
+            let stringArray = document.getElementById('raw').value.split('\n');
+            for (let index = 0; index < stringArray.length; index++) {
+                let link = stringArray[index];
+                link = '"https:' + link + '",\n';
+                document.getElementById('result').value += link;
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>

@@ -1,22 +1,42 @@
 var express = require('express');
 var fs = require('fs');
 var request = require('request');
+var bodyParser = require('body-parser')
+var path       = require('path')
 var cheerio = require('cheerio');
 var app = express();
 var sleep = require('sleep');
 
-var a = "https:";
+//For EJS
+app.set('views', './app/views')
+app.set('view engine', 'ejs');
+app.use(express.static(path.join(__dirname, '/app/public')));
 
-var fileName = "OTG_and_Adapter.json";
 var productLinks = [
-    "https://www.aliexpress.com/store/product/Micro-USB-To-USB-OTG-USAMS-Adapter-2-0-Converter-For-Samsung-Galaxy-S5-Tablet-Pc/2008001_32829008905.html",
-    "https://www.aliexpress.com/store/product/USAMS-Metal-USB-C-Type-C-Male-to-USB-3-0-Female-for-xiaomi-4c-Type/2008001_32829076561.html",
-    "https://www.aliexpress.com/store/product/USAMS-2-in-1-For-Lightning-to-3-5mm-AUX-Plug-Adapter-for-iPhone-7-iPhone/2008001_32831795581.html",
-    "https://www.aliexpress.com/store/product/USAMS-For-iphone-5-6-7-Plus-TF-Card-128GB-Max-Expansion-Type-Adapter-Charging-For/2008001_32844051524.html",
-    "https://www.aliexpress.com/store/product/Micro-Usb-Cable-to-Usb-Type-C-Type-C-Adapter-USAMS-Data-Sync-Charging-For-Oneplus/2008001_32605763054.html",
-    "https://www.aliexpress.com/store/product/USAMS-HDMI-Cable-HDMI-to-8-pin-cable-2m-HDMI-4k-3D-60FPS-Cable-for-iPhone/2008001_32815707226.html",
-    "https://www.aliexpress.com/store/product/USAMS-Dual-Ports-For-iPhone-Adapter-Aluminum-Alloy-Charging-for-Lightning-OTG-for-iPhone-8-7/2008001_32841781882.html",
+    "https://www.aliexpress.com/store/product/ROCK-Micro-USB-Cable-Fast-Charging-Mobile-Phone-USB-Charger-Cable-1M-Data-Sync-Cable-for/2496012_32738682603.html",
+    "https://www.aliexpress.com/store/product/ROCK-Original-8-Pin-Quick-Charger-Cable-Data-for-iPhone-7-6-6s-plus-5-5s/2496012_32738472806.html",
 ];
+
+app.get('/format', function (req, res) {
+    res.render("format");
+});
+
+app.get('/rock', function (req, res) {
+
+    const fileName = "./products/ROCK/rock_links" + ".json";
+    var rock = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+    console.log(rock);
+
+    rock.groups[1].subGroupList[5].products = productLinks;
+
+
+    fs.writeFile(fileName, JSON.stringify(rock, null, 4), function (err) {
+        console.log('Products saved JSON file');
+    })
+
+    res.json(rock);
+
+});
 
 app.get('/scrape', function (req, res) {
 
