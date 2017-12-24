@@ -5,23 +5,11 @@ var cheerio = require('cheerio');
 var app = express();
 var sleep = require('sleep');
 
+var a = "https:";
+
+var fileName = "iPhone_8_8_Plus.json";
 var productLinks = [
-    "https://www.aliexpress.com/store/product/USAMS-Breathing-LED-Phone-Cable-For-iPhone-X-8-7-6-Plus-2A-Nylon-Braided-for/2008001_32845060639.html",
-    "https://www.aliexpress.com/store/product/For-iphone-5-5s-Usb-Cable-USAMS-1M-3Ft-Zinc-Alloy-2-1A-Noodle-Usb-Charger/2008001_32606639968.html",
-    "https://www.aliexpress.com/store/product/USAMS-Type-C-USB-Type-C-to-8Pin-16W-Quick-Charger-USB-C-Cable-Sync-Date/2008001_32842643044.html",
-    "https://www.aliexpress.com/store/product/Auto-disconnect-USB-Cable-for-iPhone-7-6-5-USAMS-Phone-lighting-Cable-for-iOS-11/2008001_32827146792.html",
-    "https://www.aliexpress.com/store/product/USAMS-Retractable-Fast-Charging-Cable-For-iPhone-Charging-Data-USB-Cable-For-iPhone-8-7-6/2008001_32828294958.html",
-    "https://www.aliexpress.com/store/product/2-in-1-USAMS-1-2M-Charging-Mobile-Phone-Cables-Charger-iOS-Data-USB-Cable-for/2008001_32834125309.html",
-    "https://www.aliexpress.com/store/product/USAMS-Bending-Cable-For-iPhone-X-8-7-6-Phone-Cable-2A-90-Degree-L-bending/2008001_32846423899.html",
-    "https://www.aliexpress.com/store/product/USAMS-Retro-Style-Leather-Usb-Cable-30cm-Short-2A-Fast-Charger-Date-Cable-for-iPhone-6/2008001_32789295717.html",
-    "https://www.aliexpress.com/store/product/Micro-USB-Magnetic-Cable-USAMS-2A-1m-Nylon-Magnetic-Data-Sync-Charger-Cable-for-iPhone-Magnet/2008001_32833195853.html",
-    "https://www.aliexpress.com/store/product/USAMS-3-IN-1-USB-Cable-Type-C-Micro-USB-For-iphone-5-6-7-8/2008001_32835350773.html",
-    "https://www.aliexpress.com/store/product/USB-Cable-For-iPhone-Charger-USAMS-Usb-Cable-1M-Zinc-Alloy-2-1A-Usb-Charger-Data/2008001_32798878110.html",
-    "https://www.aliexpress.com/store/product/USAMS-bend-for-iPhone-Cable-iOS10-2A-Fast-Charging-Flat-Usb-Charger-Cable-for-iPhone-7/2008001_32808152203.html",
-    "https://www.aliexpress.com/store/product/Micro-USB-Magnetic-Cable-USAMS-2-1A-1m-Nylon-Magnetic-Data-Sync-Charger-Cable-for-Android/2008001_32806469650.html",
-    "https://www.aliexpress.com/store/product/USAMS-IOS-9-MFi-Cable-For-lightning-cable-2-1A-Fast-Charging-usb-data-sync-charger/2008001_32824061365.html",
-    "https://www.aliexpress.com/store/product/Micro-USB-Magnetic-Cable-USAMS-2-1A-1-2m-Nylon-Magnetic-Data-Sync-Charger-Cable-for/2008001_32833253586.html",
-    "https://www.aliexpress.com/store/product/USAMS-Micro-usb-cable-Fast-Charger-Usb-Charging-Cable-for-iPhone-8-8-plus-cable-usb/2008001_32832948318.html"
+    "https://www.aliexpress.com/store/product/USAMS-For-iPhone-8-Glass-0-25mm-9H-3D-Carbon-Fiber-Full-Cover-Tempered-Glass-for/2008001_32845561907.html",
 ];
 
 app.get('/scrape', function (req, res) {
@@ -60,7 +48,7 @@ app.get('/scrape', function (req, res) {
                 var sku = getProductId(descriptionLink);
                 product.sku = sku;
 
-                // sleep.sleep(2);
+                sleep.sleep(15);
                 request(descriptionLink, function (error, response, html) {
                     if (!error) {
                         var d = cheerio.load(html);
@@ -70,13 +58,13 @@ app.get('/scrape', function (req, res) {
                             product.description = description;
                         })
 
-                        fs.appendFile('output.json', ',' + JSON.stringify(product, null, 4), function (err) {
+                        fs.appendFile(fileName, ',' + JSON.stringify(product, null, 4), function (err) {
                             console.log('Product saved to output.json file');
                             var saved = productLinks.splice(0, 1);
                             // Finally, we'll just send out a message to the browser reminding you that this app does not have a UI.
-                            res.json(saved);
-                            // sleep.sleep(3);
-                            // res.redirect("/scrape");
+                            // res.json(saved);
+                            sleep.sleep(15);
+                            res.redirect("/scrape");
                         })
                     }
                 });
