@@ -6,8 +6,6 @@ var path       = require('path')
 var cheerio = require('cheerio');
 var app = express();
 var sleep = require('sleep');
-// var nodeExcel = require('excel-export');
-
 
 //For EJS
 app.set('views', './app/views')
