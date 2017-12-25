@@ -13,64 +13,90 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, '/app/public')));
 
 var productLinks = [
-    "https://www.aliexpress.com/store/product/ROCK-Micro-USB-Cable-Fast-Charging-Mobile-Phone-USB-Charger-Cable-1M-Data-Sync-Cable-for/2496012_32738682603.html",
-    "https://www.aliexpress.com/store/product/ROCK-Original-8-Pin-Quick-Charger-Cable-Data-for-iPhone-7-6-6s-plus-5-5s/2496012_32738472806.html",
+    "https://www.aliexpress.com/store/product/USAMS-Fast-Phone-Car-Charger-Quick-Car-Charger-Qualcomm-3-0-for-Samsung-Xiaomi-HTC-Compatible/2008001_32815415695.html",
+    "https://www.aliexpress.com/store/product/USAMS-Car-Charger-Max-2-1A-USB-for-Mobile-Phone-Adapter-Car-USB-Phone-Charger-for/2008001_32676034134.html",
+    "https://www.aliexpress.com/store/product/USAMS-Dual-USB-Car-Charger-Digital-LED-Display-DC-5V-3-4A-Universal-car-phone-charger/2008001_32787505770.html",
+    "https://www.aliexpress.com/store/product/USAMS-Universal-Dual-Ports-Car-Charger-2-1A-USB-Smart-LED-Display-Car-USB-Phone-Charger/2008001_32846042447.html",
+    "https://www.aliexpress.com/store/product/Smart-Phone-Car-Charger-USAMS-Square-Max-2-4A-Dual-USB-Port-Adapter-Car-Charger-for/2008001_32798362465.html",
+    "https://www.aliexpress.com/store/product/USAMS-Car-Charger-5V-3-1A-Fast-Charge-Dual-USB-Metal-Cigar-Lighter-Car-Phone-Charger/2008001_32764254902.html",
+    "https://www.aliexpress.com/store/product/USAMS-2-Ports-QC-3-0-Car-Charger-Qualcomm-3-0-Phone-Quick-Car-Charger-Compatible/2008001_32845288907.html",
+    "https://www.aliexpress.com/store/product/5V-2-4A-USB-Charger-USAMS-Phone-Charger-Build-in-Bluetooth-4-1-Earphone/2008001_32747978408.html",
+    
 ];
 
 app.get('/format', function (req, res) {
     res.render("format");
 });
 
-// app.get('/Excel', function (req, res) {
-//     var conf = {};
-//     conf.stylesXmlFile = "styles.xml";
-//     conf.cols = [{
-//         caption: 'string',
-//         type: 'string',
-//         beforeCellWrite: function (row, cellData) {
-//             return cellData.toUpperCase();
-//         },
-//         width: 28.7109375
-//     }, {
-//         caption: 'date',
-//         type: 'date',
-//         beforeCellWrite: function () {
-//             var originDate = new Date(Date.UTC(1899, 11, 30));
-//             return function (row, cellData, eOpt) {
-//                 if (eOpt.rowNum % 2) {
-//                     eOpt.styleIndex = 1;
-//                 }
-//                 else {
-//                     eOpt.styleIndex = 2;
-//                 }
-//                 if (cellData === null) {
-//                     eOpt.cellType = 'string';
-//                     return 'N/A';
-//                 } else
-//                     return (cellData - originDate) / (24 * 60 * 60 * 1000);
-//             }
-//         }()
-//     }, {
-//         caption: 'bool',
-//         type: 'bool'
-//     }, {
-//         caption: 'number',
-//         type: 'number'
-//     }];
-//     conf.rows = [
-//         ['pi', new Date(Date.UTC(2013, 4, 1)), true, 3.14],
-//         ["e", new Date(2012, 4, 1), false, 2.7182],
-//         ["M&M<>'", new Date(Date.UTC(2013, 6, 9)), false, 1.61803],
-//         ["null date", null, true, 1.414]
-//     ];
-//     var result = nodeExcel.execute(conf);
-//     res.setHeader('Content-Type', 'application/vnd.openxmlformats');
-//     res.setHeader("Content-Disposition", "attachment; filename=" + "Report.xlsx");
-//     res.end(result, 'binary');
-// });
+app.get('/Excel', function (req, res) {
+
+    var rows = [];
+    const fileName = "./products/USAMS/usams_links" + ".json";
+    var rock = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+
+    var writeStream = fs.createWriteStream("usams_file.xls");
+    var header =    "Name" +"\t"+
+                    "Image" +"\t"+
+                    "ImageName" +"\t"+
+                    "Description" +"\t"+
+                    "SKU" +"\t"+
+                    "Link"  +"\t"+
+                    "Category 1" +"\t"+
+                    "Category2" +"\n";
+    writeStream.write(header);
+
+    for (let i = 0; i < rock.groups.length; i++) {
+        const group = rock.groups[i];
+
+        for (let i2 = 0; i2 < rock.groups[i].subGroupList.length; i2++) {
+            const subgroup = rock.groups[i].subGroupList[i2];
+
+            for (let i3 = 0; i3 < rock.groups[i].subGroupList[i2].scrapedProducts.length; i3++) {
+                const product = rock.groups[i].subGroupList[i2].scrapedProducts[i3];
+
+                product.description = product.description.replace(/(\r\n|\n|\r|\t)/gm,"").trim();
+                if(!product.description.length) {
+                    product.description = "";
+                }
+
+                var row =   product.name +"\t"+
+                            product.image +"\t"+
+                            product.imageName +"\t"+
+                            product.description +"\t"+
+                            product.sku +"\t"+
+                            product.link +"\t"+
+                            rock.groups[i].name +"\t"+
+                            rock.groups[i].subGroupList[i2].name +"\n";
+                // writeStream.write(row);
+                rows.push(row);
+            }
+        }
+    }
+    for (let index = 0; index < rows.length; index++) {
+        const element = rows[index];
+        writeStream.write(element);
+    }
+    writeStream.close();
+});
 
 app.get('/format', function (req, res) {
     res.render("format");
+});
+
+app.get('/usams', function (req, res) {
+
+    const fileName = "./products/USAMS/usams_links" + ".json";
+    var usams = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+    console.log(usams);
+
+    usams.groups[3].subGroupList[1].products = productLinks;
+
+    fs.writeFile(fileName, JSON.stringify(usams, null, 4), function (err) {
+        console.log('Products saved JSON file');
+    })
+
+    res.json(usams);
+
 });
 
 app.get('/rock', function (req, res) {
@@ -92,7 +118,7 @@ app.get('/rock', function (req, res) {
 
 app.get('/scrape/:group/:subgroup/:product', function (req, res) {
 
-    const fileName = "./products/ROCK/rock_links" + ".json";
+    const fileName = "./products/USAMS/usams_links" + ".json";
     var rock = JSON.parse(fs.readFileSync(fileName, 'utf8'));
 
     // for (let index = req.params.product; index < rock.groups[req.params.group].subGroupList[req.params.subgroup].products.length; index++) {
