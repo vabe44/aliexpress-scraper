@@ -7,6 +7,7 @@
   "dependencies": {
     "cheerio": "latest",
     "ejs": "^2.5.7",
+    "excel-export": "^0.5.1",
     "express": "latest",
     "request": "latest",
     "sleep": "^5.1.1"
