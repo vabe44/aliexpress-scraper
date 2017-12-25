@@ -38,20 +38,23 @@ app.get('/rock', function (req, res) {
 
 });
 
-app.get('/scrape', function (req, res) {
+app.get('/scrape/:group/:subgroup/:product', function (req, res) {
 
-    // for (const productLink of productLinks) {
+    const fileName = "./products/ROCK/rock_links" + ".json";
+    var rock = JSON.parse(fs.readFileSync(fileName, 'utf8'));
 
-        var url = productLinks[0];
+    // for (let index = req.params.product; index < rock.groups[req.params.group].subGroupList[req.params.subgroup].products.length; index++) {
+        const url = rock.groups[req.params.group].subGroupList[req.params.subgroup].products[req.params.product];
 
         request(url, function (error, response, html) {
             if (!error) {
                 var $ = cheerio.load(html);
 
-                var name, image, description, sku;
+                var name, image, imageName, description, sku, link;
                 var product = {
                     name: "",
                     image: "",
+                    imageName: "",
                     description: "",
                     sku: "",
                     link: url
@@ -61,6 +64,12 @@ app.get('/scrape', function (req, res) {
                     name = $(this).text();
                     product.name = name;
                 })
+
+                if(product.name) {
+                    console.log(product.name);
+                } else {
+                    console.log("product not found??????");
+                }
 
                 $('#magnifier > div.ui-image-viewer-thumb-wrap > a > img').filter(function () {
                     image = $(this).attr("src");
@@ -73,6 +82,7 @@ app.get('/scrape', function (req, res) {
                 // get product ID from description link
                 var sku = getProductId(descriptionLink);
                 product.sku = sku;
+                product.imageName = sku + ".jpg";
 
                 sleep.sleep(15);
                 request(descriptionLink, function (error, response, html) {
@@ -84,16 +94,22 @@ app.get('/scrape', function (req, res) {
                             product.description = description;
                         })
 
-                        fs.appendFile(fileName, ',' + JSON.stringify(product, null, 4), function (err) {
+                        scrapedProducts = rock.groups[req.params.group].subGroupList[req.params.subgroup].scrapedProducts || [];
+                        scrapedProducts.push(product);
+                        rock.groups[req.params.group].subGroupList[req.params.subgroup].scrapedProducts = scrapedProducts;
+
+                        fs.writeFile(fileName, JSON.stringify(rock, null, 4), function (err) {
                             console.log('Product saved to output.json file');
-                            var saved = productLinks.splice(0, 1);
                             // Finally, we'll just send out a message to the browser reminding you that this app does not have a UI.
                             // res.json(saved);
-                            sleep.sleep(15);
-                            res.redirect("/scrape");
+                            sleep.sleep(5);
+                            var nextProductId = Number(req.params.product) + 1;
+                            res.redirect(`/scrape/${req.params.group}/${req.params.subgroup}/${nextProductId}`);
                         })
+                        // res.redirect('/fos');
                     }
                 });
+                // res.redirect('/foskakakka');
             }
         });
     // }
