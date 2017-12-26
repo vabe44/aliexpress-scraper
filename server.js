@@ -42,7 +42,7 @@ app.get('/usams', function (req, res) {
 
 });
 
-app.get('/images', function (req, res) {
+app.get('/images/:index', function (req, res) {
 
     async function downloadIMG(options) {
         try {
@@ -54,25 +54,42 @@ app.get('/images', function (req, res) {
     }
 
     var rows = [];
-    const fileName = "./products/USAMS/usams_links" + ".json";
+    const fileName = "./products/ROCK/rock_links" + ".json";
     var rock = JSON.parse(fs.readFileSync(fileName, 'utf8'));
 
     for (let i = 0; i < rock.groups.length; i++) {
         const group = rock.groups[i];
 
+    // for (let i = 0; i < 1; i++) {
+        // const group = rock.groups[0];
+
         for (let i2 = 0; i2 < rock.groups[i].subGroupList.length; i2++) {
             const subgroup = rock.groups[i].subGroupList[i2];
 
             for (let i3 = 0; i3 < rock.groups[i].subGroupList[i2].scrapedProducts.length; i3++) {
+            // for (let i3 = 0; i3 < 1; i3++) {
                 const product = rock.groups[i].subGroupList[i2].scrapedProducts[i3];
 
-                const options = {
-                    url: product.image,
-                    dest: './products/USAMS/images/' + product.imageName
-                }
                 // sleep.sleep(2);
-                downloadIMG(options)
-                // rows.push(row);
+                for (let i4 = 0; i4 < product.images.length; i4++) {
+                    const image = product.images[i4];
+                    const options = {
+                        url: image.link,
+                        dest: './products/USAMS/images/' + image.fileName
+                    }
+                    downloadIMG(options)
+                }
+
+                // sleep.sleep(2);
+                for (let i5 = 0; i5 < product.attributeImages.length; i5++) {
+                    const image = product.attributeImages[i5];
+                    const options = {
+                        url: image.link,
+                        dest: './products/USAMS/images/' + product.sku+'_attributeImages_'+image.name+'_'+i5+'.jpg'
+                    }
+                    downloadIMG(options)
+                }
+
             }
         }
     }
@@ -171,7 +188,7 @@ app.get('/rock', function (req, res) {
     var rock = JSON.parse(fs.readFileSync(fileName, 'utf8'));
     console.log(rock);
 
-    rock.groups[1].subGroupList[5].products = productLinks;
+    // rock.groups[1].subGroupList[5].products = productLinks;
 
     fs.writeFile(fileName, JSON.stringify(rock, null, 4), function (err) {
         console.log('Products saved JSON file');
@@ -183,81 +200,91 @@ app.get('/rock', function (req, res) {
 
 app.get('/scrape/:group/:subgroup/:product', function (req, res) {
 
-    const fileName = "./products/USAMS/usams_links" + ".json";
-    var rock = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+    const fileName = "./products/ROCK/rock_links" + ".json";
+    var json = JSON.parse(fs.readFileSync(fileName, 'utf8'));
 
-    // for (let index = req.params.product; index < rock.groups[req.params.group].subGroupList[req.params.subgroup].products.length; index++) {
-        const url = rock.groups[req.params.group].subGroupList[req.params.subgroup].products[req.params.product];
+    const url = json.groups[req.params.group].subGroupList[req.params.subgroup].products[req.params.product];
 
-        request(url, function (error, response, html) {
-            if (!error) {
-                var $ = cheerio.load(html);
+    request(url, function (error, response, html) {
+        if (!error) {
+            var $ = cheerio.load(html);
 
-                var name, image, imageName, description, sku, link;
-                var product = {
-                    name: "",
-                    image: "",
-                    imageName: "",
-                    description: "",
-                    sku: "",
-                    link: url
-                };
+            var name, images, image, imageName, attributeImages, description, sku, link;
+            var product = {
+                name: "",
+                images: [],
+                attributeImages: [],
+                description: "",
+                sku: "",
+                link: url
+            };
 
-                $('h1[class="product-name"]').filter(function () {
-                    name = $(this).text();
-                    product.name = name;
-                })
+            $('h1[class="product-name"]').filter(function () {
+                name = $(this).text();
+                product.name = name;
+            })
 
-                if(product.name) {
-                    console.log(product.name);
-                } else {
-                    console.log("product not found??????");
-                }
-
-                $('#magnifier > div.ui-image-viewer-thumb-wrap > a > img').filter(function () {
-                    image = $(this).attr("src");
-                    product.image = image;
-                })
-
-                // extract description link from HTML string
-                var descriptionLink = getDescriptionLink(html);
-
-                // get product ID from description link
-                var sku = getProductId(descriptionLink);
-                product.sku = sku;
-                product.imageName = sku + ".jpg";
-
-                sleep.sleep(15);
-                request(descriptionLink, function (error, response, html) {
-                    if (!error) {
-                        var d = cheerio.load(html);
-
-                        d('body').filter(function () {
-                            description = d(this).text();
-                            product.description = description;
-                        })
-
-                        scrapedProducts = rock.groups[req.params.group].subGroupList[req.params.subgroup].scrapedProducts || [];
-                        scrapedProducts.push(product);
-                        rock.groups[req.params.group].subGroupList[req.params.subgroup].scrapedProducts = scrapedProducts;
-
-                        fs.writeFile(fileName, JSON.stringify(rock, null, 4), function (err) {
-                            console.log('Product saved to output.json file');
-                            // Finally, we'll just send out a message to the browser reminding you that this app does not have a UI.
-                            // res.json(saved);
-                            sleep.sleep(15);
-                            var nextProductId = Number(req.params.product) + 1;
-                            res.redirect(`/scrape/${req.params.group}/${req.params.subgroup}/${nextProductId}`);
-                        })
-                        // res.redirect('/fos');
-                    }
-                });
-                // res.redirect('/foskakakka');
+            if(product.name) {
+                console.log(product.name);
+            } else {
+                console.log("product not found??????");
             }
-        });
-    // }
 
-    // res.send("Done!");
+            // extract description link from HTML string
+            var descriptionLink = getDescriptionLink(html);
+
+            // get product ID from description link
+            var sku = getProductId(descriptionLink);
+            product.sku = sku;
+            // product.imageName = sku + ".jpg";
+
+            // get product images
+            $('#j-image-thumb-list > li > span > img').filter(function () {
+                let image = {};
+                image.link = $(this).attr("src").replace("_50x50.jpg", "");
+                product.images.push(image);
+            })
+
+            for (let image of product.images) {
+                image.fileName = `${product.sku}_gallery_${product.images.indexOf(image)}.jpg`;
+            }
+
+            // get attribute images
+            $('.item-sku-image > a > img').filter(function () {
+                let image = {};
+                image.link = $(this).attr("src").replace("_50x50.jpg", "");
+                image.name = $(this).attr("title");
+                product.attributeImages.push(image);
+            })
+
+            for (let image of product.attributeImages) {
+                image.fileName = `${product.sku}_attribute_${product.attributeImages.indexOf(image)}.jpg`;
+            }
+
+            sleep.sleep(15);
+            request(descriptionLink, function (error, response, html) {
+                if (!error) {
+                    var d = cheerio.load(html);
+
+                    d('body').filter(function () {
+                        description = d(this).text();
+                        product.description = description;
+                    })
+
+                    scrapedProducts = json.groups[req.params.group].subGroupList[req.params.subgroup].scrapedProducts || [];
+                    scrapedProducts.push(product);
+                    json.groups[req.params.group].subGroupList[req.params.subgroup].scrapedProducts = scrapedProducts;
+
+                    fs.writeFile(fileName, JSON.stringify(json, null, 4), function (err) {
+                        console.log('Product saved to output.json file');
+                        sleep.sleep(15);
+                        var nextProductId = Number(req.params.product) + 1;
+                        res.redirect(`/scrape/${req.params.group}/${req.params.subgroup}/${nextProductId}`);
+                    })
+                }
+            });
+        }
+    });
 })
 
 app.get('/scrapeimages', function (req, res) {
@@ -275,8 +302,6 @@ app.get('/scrapeimages', function (req, res) {
                 var name, images, image, imageName, attributeImages, description, sku, link;
                 var product = {
                     name: "",
-                    // image: "",
-                    // imageName: "",
                     images: [],
                     attributeImages: [],
                     description: "",
