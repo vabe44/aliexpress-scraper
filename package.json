@@ -7,9 +7,8 @@
   "dependencies": {
     "cheerio": "latest",
     "ejs": "^2.5.7",
-    "excel-export": "^0.5.1",
-    "excel4node": "^1.3.2",
     "express": "latest",
+    "image-downloader": "^3.3.0",
     "request": "latest",
     "sleep": "^5.1.1"
   }

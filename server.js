@@ -6,6 +6,7 @@ var path       = require('path')
 var cheerio = require('cheerio');
 var app = express();
 var sleep = require('sleep');
+const download = require('image-downloader');
 
 //For EJS
 app.set('views', './app/views')
@@ -13,16 +14,97 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, '/app/public')));
 
 var productLinks = [
-    "https://www.aliexpress.com/store/product/USAMS-Fast-Phone-Car-Charger-Quick-Car-Charger-Qualcomm-3-0-for-Samsung-Xiaomi-HTC-Compatible/2008001_32815415695.html",
-    "https://www.aliexpress.com/store/product/USAMS-Car-Charger-Max-2-1A-USB-for-Mobile-Phone-Adapter-Car-USB-Phone-Charger-for/2008001_32676034134.html",
-    "https://www.aliexpress.com/store/product/USAMS-Dual-USB-Car-Charger-Digital-LED-Display-DC-5V-3-4A-Universal-car-phone-charger/2008001_32787505770.html",
-    "https://www.aliexpress.com/store/product/USAMS-Universal-Dual-Ports-Car-Charger-2-1A-USB-Smart-LED-Display-Car-USB-Phone-Charger/2008001_32846042447.html",
-    "https://www.aliexpress.com/store/product/Smart-Phone-Car-Charger-USAMS-Square-Max-2-4A-Dual-USB-Port-Adapter-Car-Charger-for/2008001_32798362465.html",
-    "https://www.aliexpress.com/store/product/USAMS-Car-Charger-5V-3-1A-Fast-Charge-Dual-USB-Metal-Cigar-Lighter-Car-Phone-Charger/2008001_32764254902.html",
-    "https://www.aliexpress.com/store/product/USAMS-2-Ports-QC-3-0-Car-Charger-Qualcomm-3-0-Phone-Quick-Car-Charger-Compatible/2008001_32845288907.html",
-    "https://www.aliexpress.com/store/product/5V-2-4A-USB-Charger-USAMS-Phone-Charger-Build-in-Bluetooth-4-1-Earphone/2008001_32747978408.html",
+
+    "https://www.aliexpress.com/store/product/USAMS-For-iPhone-OTG-Micro-Usb-Adapter-Micro-Cable-to-Light-Charging-Data-Sync-Cable-for/2008001_32831123612.html",
+    "https://www.aliexpress.com/store/product/Micro-USB-To-USB-OTG-USAMS-Adapter-2-0-Converter-For-Samsung-Galaxy-S5-Tablet-Pc/2008001_32829008905.html",
+    "https://www.aliexpress.com/store/product/USAMS-Metal-USB-C-Type-C-Male-to-USB-3-0-Female-for-xiaomi-4c-Type/2008001_32829076561.html",
+    "https://www.aliexpress.com/store/product/USAMS-For-iphone-5-6-7-Plus-TF-Card-128GB-Max-Expansion-Type-Adapter-Charging-For/2008001_32844051524.html",
+    "https://www.aliexpress.com/store/product/USAMS-2-in-1-For-Lightning-to-3-5mm-AUX-Plug-Adapter-for-iPhone-7-iPhone/2008001_32831795581.html",
+    "https://www.aliexpress.com/store/product/Micro-Usb-Cable-to-Usb-Type-C-Type-C-Adapter-USAMS-Data-Sync-Charging-For-Oneplus/2008001_32605763054.html",
+    "https://www.aliexpress.com/store/product/USAMS-HDMI-Cable-HDMI-to-8-pin-cable-2m-HDMI-4k-3D-60FPS-Cable-for-iPhone/2008001_32815707226.html",
+    "https://www.aliexpress.com/store/product/USAMS-Dual-Ports-For-iPhone-Adapter-Aluminum-Alloy-Charging-for-Lightning-OTG-for-iPhone-8-7/2008001_32841781882.html",
     
 ];
+
+app.get('/usams', function (req, res) {
+
+    const fileName = "./products/USAMS/usams_links" + ".json";
+    var usams = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+    console.log(usams);
+
+    usams.groups[8].subGroupList[0].products = productLinks;
+
+    fs.writeFile(fileName, JSON.stringify(usams, null, 4), function (err) {
+        console.log('Products saved JSON file');
+    })
+
+    res.json(usams);
+
+});
+
+app.get('/images', function (req, res) {
+
+    async function downloadIMG(options) {
+        try {
+          const { filename2, image } = await download.image(options)
+          console.log(filename2) // => /path/to/dest/image.jpg
+        } catch (e) {
+          throw e
+        }
+    }
+
+    var rows = [];
+    const fileName = "./products/USAMS/usams_links" + ".json";
+    var rock = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+
+    for (let i = 0; i < rock.groups.length; i++) {
+        const group = rock.groups[i];
+
+        for (let i2 = 0; i2 < rock.groups[i].subGroupList.length; i2++) {
+            const subgroup = rock.groups[i].subGroupList[i2];
+
+            for (let i3 = 0; i3 < rock.groups[i].subGroupList[i2].scrapedProducts.length; i3++) {
+                const product = rock.groups[i].subGroupList[i2].scrapedProducts[i3];
+
+                const options = {
+                    url: product.image,
+                    dest: './products/USAMS/images/' + product.imageName
+                }
+                // sleep.sleep(2);
+                downloadIMG(options)
+                // rows.push(row);
+            }
+        }
+    }
+});
+
+app.get('/usamsimages', function (req, res) {
+
+    async function downloadIMG(options) {
+        try {
+          const { filename2, image } = await download.image(options)
+          console.log(filename2) // => /path/to/dest/image.jpg
+        } catch (e) {
+          throw e
+        }
+    }
+
+    var rows = [];
+    const fileName = "./products/USAMS/all" + ".json";
+    var rock = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+
+    for (let i = 0; i < rock.length; i++) {
+        const product = rock[i];
+
+        const options = {
+            url: product.image,
+            dest: './products/USAMS/images/' + product.sku + ".jpg"
+        }
+        // sleep.sleep(2);
+        downloadIMG(options)
+        // rows.push(row);
+    }
+});
 
 app.get('/format', function (req, res) {
     res.render("format");
@@ -83,22 +165,6 @@ app.get('/format', function (req, res) {
     res.render("format");
 });
 
-app.get('/usams', function (req, res) {
-
-    const fileName = "./products/USAMS/usams_links" + ".json";
-    var usams = JSON.parse(fs.readFileSync(fileName, 'utf8'));
-    console.log(usams);
-
-    usams.groups[3].subGroupList[1].products = productLinks;
-
-    fs.writeFile(fileName, JSON.stringify(usams, null, 4), function (err) {
-        console.log('Products saved JSON file');
-    })
-
-    res.json(usams);
-
-});
-
 app.get('/rock', function (req, res) {
 
     const fileName = "./products/ROCK/rock_links" + ".json";
@@ -106,7 +172,6 @@ app.get('/rock', function (req, res) {
     console.log(rock);
 
     rock.groups[1].subGroupList[5].products = productLinks;
-
 
     fs.writeFile(fileName, JSON.stringify(rock, null, 4), function (err) {
         console.log('Products saved JSON file');
@@ -194,6 +259,97 @@ app.get('/scrape/:group/:subgroup/:product', function (req, res) {
 
     // res.send("Done!");
 })
+
+app.get('/scrapeimages', function (req, res) {
+
+    const fileName = "./products/USAMS/all" + ".json";
+    var json = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+
+    for (let i = 0; i < json.length; i++) {
+        const url = json[i].link;
+
+        request(url, function (error, response, html) {
+            if (!error) {
+                var $ = cheerio.load(html);
+
+                var name, images, image, imageName, attributeImages, description, sku, link;
+                var product = {
+                    name: "",
+                    // image: "",
+                    // imageName: "",
+                    images: [],
+                    attributeImages: [],
+                    description: "",
+                    sku: "",
+                    link: url
+                };
+
+                $('h1[class="product-name"]').filter(function () {
+                    name = $(this).text();
+                    product.name = name;
+                })
+
+                if(product.name) {
+                    console.log(product.name);
+                } else {
+                    console.log("product not found??????");
+                }
+
+                // extract description link from HTML string
+                var descriptionLink = getDescriptionLink(html);
+
+                // get product ID from description link
+                var sku = getProductId(descriptionLink);
+                product.sku = sku;
+                // product.imageName = sku + ".jpg";
+
+                // get product images
+                $('#j-image-thumb-list > li > span > img').filter(function () {
+                    let image = {};
+                    image.link = $(this).attr("src").replace("_50x50.jpg", "");
+                    image.name = $(this).attr("alt");
+                    product.images.push(image);
+                })
+
+                // get attribute images
+                $('.item-sku-image > a > img').filter(function () {
+                    let image = {};
+                    image.link = $(this).attr("src").replace("_50x50.jpg", "");
+                    image.name = $(this).attr("title");
+                    product.attributeImages.push(image);
+                })
+
+                sleep.sleep(15);
+                request(descriptionLink, function (error, response, html) {
+                    if (!error) {
+                        var d = cheerio.load(html);
+
+                        d('body').filter(function () {
+                            description = d(this).text();
+                            product.description = description;
+                        })
+
+                        scrapedProducts = rock.groups[req.params.group].subGroupList[req.params.subgroup].scrapedProducts || [];
+                        scrapedProducts.push(product);
+                        rock.groups[req.params.group].subGroupList[req.params.subgroup].scrapedProducts = scrapedProducts;
+
+                        fs.writeFile(fileName + ".new.json", JSON.stringify(rock, null, 4), function (err) {
+                            console.log('Product saved to output.json file');
+                            // Finally, we'll just send out a message to the browser reminding you that this app does not have a UI.
+                            // res.json(saved);
+                            sleep.sleep(15);
+                            // var nextProductId = Number(req.params.product) + 1;
+                            // res.redirect(`/scrape/${req.params.group}/${req.params.subgroup}/${nextProductId}`);
+                        })
+                        // res.redirect('/fos');
+                    }
+                });
+                // res.redirect('/foskakakka');
+            }
+        });
+    }
+    // res.send("Done!");
+});
 
 app.listen('8081')
 console.log('Magic happens on port 8081');

@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# scraped images
+products/ROCK/images
+products/USAMS/images

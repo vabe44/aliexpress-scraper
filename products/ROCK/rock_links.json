@@ -2105,67 +2105,6 @@
                 }
             ],
             "url": "//rock.aliexpress.com/store/group/Earphones-Bluetooth-Speakers/2496012_510040129.html"
-        },
-        {
-            "autoGroup": false,
-            "groupId": 512011923,
-            "groupType": "product",
-            "isExpand": "Y",
-            "name": "Overseas Warehouse",
-            "subGroupList": [
-                {
-                    "autoGroup": false,
-                    "groupId": 512053587,
-                    "groupType": "product",
-                    "isExpand": "N",
-                    "name": "Ships from Spain",
-                    "url": "//rock.aliexpress.com/store/group/Ships-from-Spain/2496012_512053587.html",
-                    "products": [
-                        "https://www.aliexpress.com/store/product/for-Samsung-S8-Case-Flip-Case-for-Samsung-Galaxy-S8-Plus-Transparent-Visible-Window-Back-Cover/2496012_32816436835.html",
-                        "https://www.aliexpress.com/store/product/Rock-Original-Flip-case-for-iPhone-7-Dr-V-Series-Smart-Transparent-View-Window-Case-for/2496012_32742030613.html",
-                        "https://www.aliexpress.com/store/product/Rock-Tablet-Holder-for-iPad-iPad-Mini-Universal-Magnetic-Phone-Holder-Long-Arm-Lazy-Bed-Desktop/2496012_32753073744.html",
-                        "https://www.aliexpress.com/store/product/ROCK-Zircon-Stereo-In-Ear-Earphone-Headphone-with-Microphone-and-Remote-for-iPhone-5-5S-6/2496012_32754746303.html"
-                    ]
-                },
-                {
-                    "autoGroup": false,
-                    "groupId": 512049555,
-                    "groupType": "product",
-                    "isExpand": "N",
-                    "name": "Ships from UK",
-                    "url": "//rock.aliexpress.com/store/group/Ships-from-UK/2496012_512049555.html",
-                    "products": [
-                        "https://www.aliexpress.com/store/product/for-Samsung-S8-Case-Flip-Case-for-Samsung-Galaxy-S8-Plus-Transparent-Visible-Window-Back-Cover/2496012_32816436835.html",
-                        "https://www.aliexpress.com/store/product/Rock-Original-Flip-case-for-iPhone-7-Dr-V-Series-Smart-Transparent-View-Window-Case-for/2496012_32742030613.html",
-                        "https://www.aliexpress.com/store/product/Rock-Tablet-Holder-for-iPad-iPad-Mini-Universal-Magnetic-Phone-Holder-Long-Arm-Lazy-Bed-Desktop/2496012_32753073744.html",
-                        "https://www.aliexpress.com/store/product/ROCK-Zircon-Stereo-In-Ear-Earphone-Headphone-with-Microphone-and-Remote-for-iPhone-5-5S-6/2496012_32754746303.html"
-                    ]
-                },
-                {
-                    "autoGroup": false,
-                    "groupId": 512049558,
-                    "groupType": "product",
-                    "isExpand": "N",
-                    "name": "Ships from Russia",
-                    "url": "//rock.aliexpress.com/store/group/Ships-from-Russia/2496012_512049558.html",
-                    "products": [
-                        "https://www.aliexpress.com/store/product/Rock-Waterproof-Bag-Luminous-Night-Underwater-Case-for-Samsung-Galaxy-S8-Case-for-iphone-6-7/2496012_32815386206.html"
-                    ]
-                }
-            ],
-            "url": "//rock.aliexpress.com/store/group/Overseas-Warehouse/2496012_512011923.html"
-        },
-        {
-            "autoGroup": false,
-            "groupId": 0,
-            "groupType": "product",
-            "isExpand": "N",
-            "name": "Others",
-            "subGroupList": [],
-            "url": "//rock.aliexpress.com/store/other-products/2496012.html",
-            "products": [
-                "https://www.aliexpress.com/store/product/Rock-Waterproof-Bag-Luminous-Night-Underwater-Case-for-Samsung-Galaxy-S8-Case-for-iphone-6-7/2496012_32815386206.html"
-            ]
         }
     ]
 }

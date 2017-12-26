@@ -1,13 +1,172 @@
 {
     "allProductsUrl": "//www.aliexpress.com/store/all-wholesale-products/2008001.html",
     "groups": [
-            {
+        {
+            "autoGroup": false,
+            "groupId": 506631311,
+            "groupType": "product",
+            "isExpand": "Y",
+            "name": "Mobile Phone Cable",
+            "subGroupList": [
+                {
+                    "autoGroup": false,
+                    "groupId": 510240047,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "for iPhone Cable ",
+                    "url": "//usams0001.aliexpress.com/store/group/for-iPhone-Cable/2008001_510240047.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-USB-Cable-for-iPhone-1m-0-25m-IOS-11-10-9-8-2A-Fast-Charger/2008001_32842758938.html",
+                        "https://www.aliexpress.com/store/product/For-Iphone-6-6s-Plus-5s-5-5c-Usb-Cable-IOS-9-USAMS-1m-1-5m/2008001_32604490952.html",
+                        "https://www.aliexpress.com/store/product/USAMS-1m-IOS-10-11-2A-Fast-Charger-Usb-Charging-Cable-for-iPhone-5s-iphone-6/2008001_32673027833.html",
+                        "https://www.aliexpress.com/store/product/2-in-1-Micro-USB-Cable-USAMS-1M-Charging-Mobile-Phone-Cables-For-iPhone-5-5S/2008001_32610055892.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Breathing-LED-Phone-Cable-For-iPhone-X-8-7-6-Plus-2A-Nylon-Braided-for/2008001_32845060639.html",
+                        "https://www.aliexpress.com/store/product/For-iphone-5-5s-Usb-Cable-USAMS-1M-3Ft-Zinc-Alloy-2-1A-Noodle-Usb-Charger/2008001_32606639968.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Retractable-Fast-Charging-Cable-For-iPhone-Charging-Data-USB-Cable-For-iPhone-8-7-6/2008001_32828294958.html",
+                        "https://www.aliexpress.com/store/product/Auto-disconnect-USB-Cable-for-iPhone-7-6-5-USAMS-Phone-lighting-Cable-for-iOS-11/2008001_32827146792.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Type-C-USB-Type-C-to-8Pin-16W-Quick-Charger-USB-C-Cable-Sync-Date/2008001_32842643044.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Bending-Cable-For-iPhone-X-8-7-6-Phone-Cable-2A-90-Degree-L-bending/2008001_32846423899.html",
+                        "https://www.aliexpress.com/store/product/2-in-1-USAMS-1-2M-Charging-Mobile-Phone-Cables-Charger-iOS-Data-USB-Cable-for/2008001_32834125309.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Retro-Style-Leather-Usb-Cable-30cm-Short-2A-Fast-Charger-Date-Cable-for-iPhone-6/2008001_32789295717.html",
+                        "https://www.aliexpress.com/store/product/USAMS-3-IN-1-USB-Cable-Type-C-Micro-USB-For-iphone-5-6-7-8/2008001_32835350773.html",
+                        "https://www.aliexpress.com/store/product/Micro-USB-Magnetic-Cable-USAMS-2A-1m-Nylon-Magnetic-Data-Sync-Charger-Cable-for-iPhone-Magnet/2008001_32833195853.html",
+                        "https://www.aliexpress.com/store/product/USAMS-bend-for-iPhone-Cable-iOS10-2A-Fast-Charging-Flat-Usb-Charger-Cable-for-iPhone-7/2008001_32808152203.html",
+                        "https://www.aliexpress.com/store/product/USB-Cable-For-iPhone-Charger-USAMS-Usb-Cable-1M-Zinc-Alloy-2-1A-Usb-Charger-Data/2008001_32798878110.html",
+                        "https://www.aliexpress.com/store/product/Micro-USB-Magnetic-Cable-USAMS-2-1A-1m-Nylon-Magnetic-Data-Sync-Charger-Cable-for-Android/2008001_32806469650.html",
+                        "https://www.aliexpress.com/store/product/USAMS-IOS-9-MFi-Cable-For-lightning-cable-2-1A-Fast-Charging-usb-data-sync-charger/2008001_32824061365.html",
+                        "https://www.aliexpress.com/store/product/Micro-USB-Magnetic-Cable-USAMS-2-1A-1-2m-Nylon-Magnetic-Data-Sync-Charger-Cable-for/2008001_32833253586.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Micro-usb-cable-Fast-Charger-Usb-Charging-Cable-for-iPhone-8-8-plus-cable-usb/2008001_32832948318.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 509658829,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Micro USB Cable for Android",
+                    "url": "//usams0001.aliexpress.com/store/group/Micro-USB-Cable-for-Android/2008001_509658829.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Auto-disconnect-Micro-USB-Cable-Original-Data-Fast-Charger-2A-Cable-1-2M-Phone-Accessories/2008001_32842855435.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Micro-USB-Cable-5V2A-Fast-Charger-USB-Cable-for-Samsung-Micro-USB-Fast-Data-Sync/2008001_32805080831.html",
+                        "https://www.aliexpress.com/store/product/Usb-Micro-cable-usb-original-USAMS-flat-charger-data-cable-1m-Mobile-Phone-microusb-Cables-for/2008001_32603588772.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Micro-USB-Cable-1m-2A-Fast-Charging-Mobile-Phone-Android-Cable-USB-Charger-Date-Sync/2008001_32673051485.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Micro-USB-Cable-for-iPhone-6-6s-Plus-5S-5-iPadmini-Samsung-Galaxy-S6-S3/2008001_32605400512.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Storage-Cable-usb-micro-usb-Aluminium-alloy-TPE-Cabo-Micro-Usb-Cable-For-Samsung-Xiaomi/2008001_32737136212.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Micro-phone-USB-Cable-Smart-change-Light-Data-Sync-Fast-Charger-Cable-Micro-usb/2008001_32848387937.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 510511967,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Type-C USB Cable",
+                    "url": "//usams0001.aliexpress.com/store/group/Type-C-USB-Cable/2008001_510511967.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/Type-C-Cable-Auto-disconnect-Type-c-Cable-for-Samsung-Xiaomi-Oneplus-USAMS-Smart-USB-C/2008001_32842859036.html",
+                        "https://www.aliexpress.com/store/product/USAMS-USB-Type-C-Cable-1m-2A-USB-Type-C-Cable-for-Meizu-Pro-6-Xiaomi/2008001_32789567187.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Type-C-Cable-For-Samsung-S8-S8-Plus-Note-8-1m-Type-C-USB-Cable/2008001_32846523216.html",
+                        "https://www.aliexpress.com/store/product/Type-C-USB-Cable-USAMS-Auto-Change-Lights-Type-C-Cable-for-Samsung-Xiaomi-Oneplus-Smart/2008001_32846452656.html",
+                        "https://www.aliexpress.com/store/product/USAMS-USB-Type-C-Cable-1m-2-1A-USB-Type-C-Cable-Charger-Date-Sync-Cable/2008001_32670945283.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512504364,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Aux Audio Cable",
+                    "url": "//usams0001.aliexpress.com/store/group/Aux-Audio-Cable/2008001_512504364.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/Aux-Cable-Car-3-5mm-to-3-5mm-Jack-Audio-Cable-Kabel-Male-to-Male-USAMS/2008001_32829998369.html",
+                        "https://www.aliexpress.com/store/product/USAMS-3-5mm-Plug-Jack-1m-2m-Aux-Audio-Extension-Cable-Stereo-Male-to-Female-Aux/2008001_32831904933.html",
+                        "https://www.aliexpress.com/store/product/USAMS-3-5mm-Audio-Cable-90-Degree-Right-Angle-Jack-3-5-mm-Aux-Cable-for/2008001_32831538874.html",
+                        "https://www.aliexpress.com/store/product/USAMS-3-5mm-2-in-1-Y-Splitter-Adapter-Audio-Aux-Cable-Stereo-Headphone-50cm-Male/2008001_32833535572.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512209994,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Other Cables",
+                    "url": "//usams0001.aliexpress.com/store/group/Other-Cables/2008001_512209994.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-HDMI-Cable-HDMI-to-8-pin-cable-2m-HDMI-4k-3D-60FPS-Cable-for-iPhone/2008001_32815707226.html"
+                    ]
+                }
+            ],
+            "url": "//usams0001.aliexpress.com/store/group/Mobile-Phone-Cable/2008001_506631311.html"
+        },
+        {
+            "autoGroup": false,
+            "groupId": 506586093,
+            "groupType": "product",
+            "isExpand": "Y",
+            "name": "Power Bank",
+            "subGroupList": [
+                {
+                    "autoGroup": false,
+                    "groupId": 512130911,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Portable Power Bank",
+                    "url": "//usams0001.aliexpress.com/store/group/Portable-Power-Bank/2008001_512130911.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-5V-2A-2-USB-Ports-8000mah-QI-Wireless-Charger-5W-Pad-Power-Bank-Built-in/2008001_32840173278.html",
+                        "https://www.aliexpress.com/store/product/Power-bank-for-xiaomi-Mi-USAMS-Mosaic-Ultra-Slim-5000mAh-Powerbank-for-iPhone-4-5-6/2008001_32820010134.html",
+                        "https://www.aliexpress.com/store/product/Power-bank-for-xiaomi-Mi-USAMS-Mosaic-Ultra-Slim-5000-10000mAh-Powerbank-for-iPhone-4-5/2008001_32815873749.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Mosaic-Ultra-Slim-20000mAh-Powerbank-for-Mobile-Phone-Universal-Portable-Power-Bank/2008001_32834520336.html",
+                        "https://www.aliexpress.com/store/product/Power-Bank-20000mAh-USAMS-LCD-Portable-PowerBank-External-Battery-Dual-USB-Charger-For-Xiaomi-iPhone-7/2008001_32818578416.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Power-Bank-10000mAh-Dual-USB-Mobile-Phone-Portable-Charger-Powerbank-Backup-External-Battery/2008001_32674497645.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Powerbank-10000mAh-Dual-USB-Input-Output-Power-Bank-Phone-Portable-Charger-External-Battery-for-iPhone/2008001_32818879548.html",
+                        "https://www.aliexpress.com/store/product/Shipping-from-RU-Power-Bank-USAMS-10000mah-5V-2A-Dual-USB-Output-Emergency-Portable-Charger-Powerbank/2008001_32845096277.html",
+                        "https://www.aliexpress.com/store/product/USAMS-10000mah-Power-Bank-5v-2A-Dual-USB-OutPut-Emergency-Portable-Charger-Powerbank-for-iphone-Samsung/2008001_32763542942.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Power-bank-10000mAh-5V-2-1A-Dual-Output-Powerbank-Portable-external-battery-Micro-usb-For/2008001_32806072831.html",
+                        "https://www.aliexpress.com/store/product/Power-Bank-USAMS-6000mah-5V-1A-Dual-USB-Output-Emergency-Portable-Charger-Powerbank-for-iPhone-Charging/2008001_32839826764.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512134640,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Battery Charger Case",
+                    "url": "//usams0001.aliexpress.com/store/group/Battery-Charger-Case/2008001_512134640.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Battery-Charger-Cases-for-iPhone-6-6s-7-Plus-2500-3800mAh-Power-Bank-Case-Ultra/2008001_32805515910.html",
+                        "https://www.aliexpress.com/store/product/for-iPhone-6-6s-plus-Power-Bank-Case-USAMS-Battery-Charger-Cases-Ultra-Slim-External-Pack/2008001_32803937898.html",
+                        "https://www.aliexpress.com/store/product/For-iPhone-6-6S-7-8-Plus-Power-Bank-Case-USAMS-Battery-Charger-Case-External-Pack/2008001_32833581829.html"
+                    ]
+                }
+            ],
+            "url": "//usams0001.aliexpress.com/store/group/Power-Bank/2008001_506586093.html"
+        },
+        {
             "autoGroup": false,
             "groupId": 507040170,
             "groupType": "product",
             "isExpand": "Y",
             "name": "Mobile Phone Charger",
             "subGroupList": [
+                {
+                    "autoGroup": false,
+                    "groupId": 511025029,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Wall Charger",
+                    "url": "//usams0001.aliexpress.com/store/group/Wall-Charger/2008001_511025029.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Wall-phone-Charger-3-Port-USB-the-max-2-4A-out-put-Charge-Smart-Fast/2008001_32821702629.html",
+                        "https://www.aliexpress.com/store/product/USAMS-2-Ports-USB-Charger-5V-2-4A-totally-EU-UK-Standard-Mobile-Phone-Universal-USB/2008001_32828445781.html",
+                        "https://www.aliexpress.com/store/product/USAMS-LED-Display-Dual-USB-Phone-Charger-EU-US-Plug-The-Max-2-2A-Smart-Fast/2008001_32836427615.html",
+                        "https://www.aliexpress.com/store/product/Quick-change-3-0-USAMS-For-Qualcomm-18W-Fast-Charging-Phone-USB-Charger-Compatible-Quick-Charge/2008001_32800634641.html",
+                        "https://www.aliexpress.com/store/product/USAMS-5V-2-1A-US-Plug-Mobile-Phone-Charger-for-iPhone-Samsung-Xiaomi/2008001_32784870719.html",
+                        "https://www.aliexpress.com/store/product/USAMS-QC-3-0-Phone-Charger-Qualcomm-3-0-Fast-USB-Phone-Charger-for-iPhone-Samsung/2008001_32848131319.html",
+                        "https://www.aliexpress.com/store/product/USAMS-4-in-1-phone-charger-Global-Conversion-Socket-Dual-USB-Multifunction-Charger-Universal-Wall-Charging/2008001_32846004389.html",
+                        "https://www.aliexpress.com/store/product/USAMS-2-in-1-Smart-Touch-Rechargeable-Mini-Night-Light-Phone-Charger-Dual-USB-Charger-Wall/2008001_32846033097.html"
+                    ]
+                },
                 {
                     "autoGroup": false,
                     "groupId": 510822950,
@@ -24,76 +183,66 @@
                         "https://www.aliexpress.com/store/product/USAMS-Car-Charger-5V-3-1A-Fast-Charge-Dual-USB-Metal-Cigar-Lighter-Car-Phone-Charger/2008001_32764254902.html",
                         "https://www.aliexpress.com/store/product/USAMS-2-Ports-QC-3-0-Car-Charger-Qualcomm-3-0-Phone-Quick-Car-Charger-Compatible/2008001_32845288907.html",
                         "https://www.aliexpress.com/store/product/5V-2-4A-USB-Charger-USAMS-Phone-Charger-Build-in-Bluetooth-4-1-Earphone/2008001_32747978408.html"
-                    ],
-                    "scrapedProducts": [
-                        {
-                            "name": "USAMS Car Charger Qualcomm 3.0 Phone Quick Car-Charger for Samsung Xiaomi HTC Compatible 2.0 Quick Car USB Fast Charger",
-                            "image": "https://ae01.alicdn.com/kf/HTB1jwUqkjuhSKJjSspmq6AQDpXai/USAMS-Car-Charger-Qualcomm-3-0-Phone-Quick-Car-Charger-for-Samsung-Xiaomi-HTC-Compatible-2.jpg_640x640.jpg",
-                            "imageName": "32815415695.jpg",
-                            "description": "\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuick charge car charger\t\t\t\tBy USAMS\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tProduct Description\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMeet the needs of your charger demands with this quick charge car charger. The input voltage is 12-24V and the output is 3.6-6V 3A / 6.2-9V 3A / 9.2-12V 3A / 5V 2.4A.\t\t\t\t\t\t\t\t\t\tPackaging:\t\t\t\t\t1 x Dual USB Car Charger\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQC3.0 High Speed Fast Charger\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQC3.0: Charge a QC mobile phone\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQualcomm QC 3.0 Fast Charge Technology\t\t\t\t\tQC 3.0 supports 5V / 9V / 12V\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCharge for 20 minutes, Power up to 50%\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSmart Chip & Multinational Protection\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMini Stylish Design\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tIntelligent Heat Dissipation\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBrand: USAMS\t\t\t\t\tLength: 62 mm, Width: 28 mm\t\t\t\t\tName: QC3.0 dual USB car charger\t\t\t\t\tModel: US-CC028\t\t\t\t\tMaterial: Fireproof ABS + PC\t\t\t\t\tColour: black\t\t\t\t\tInput: DC 12V-24V\t\t\t\t\tOutput: 3.6-6V 3A / 6.2-9V 3A\t\t\t\t\tFeatures: 9.2-12V 3A / 5V 2.4A\t\t\t\t\tFunction: Charge the digital device\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSize View\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBlack\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSERVICES\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tHot selling products from top sellers\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAll orders shipped from AliExpress warehouses within 24 hours\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDedicated customer service\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPACKAGING AND SHIPPING GUARANTEE\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEnjoy peace of mind with AliExpress door-to-door packaging and shipping protection\t\t\t\t\t\t",
-                            "sku": "32815415695",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-Fast-Phone-Car-Charger-Quick-Car-Charger-Qualcomm-3-0-for-Samsung-Xiaomi-HTC-Compatible/2008001_32815415695.html"
-                        },
-                        {
-                            "name": "USAMS Car-Charger Max 2.1A USB for Mobile Phone Adapter Car USB Phone Charger for iPhone Samsung xiaomi Huawei",
-                            "image": "https://ae01.alicdn.com/kf/HTB1aE7VXPgy_uJjSZKPq6yGlFXaM/USAMS-Car-Charger-Max-2-1A-USB-for-Mobile-Phone-Adapter-Car-USB-Phone-Charger-for.jpg_640x640.jpg",
-                            "imageName": "32676034134.jpg",
-                            "description": "  \n  \n    \n  \n   \n Max 2.1A current  This charger is within the total 2.1A charging speed, this charging speed not only can support the need of charging, but it is more safe for you when driving.  \n Universal 2-Port USB Charging Station  Charger 2 device simulatanously at their optimal charging speed, total output is 2.1A \n Size and Net Weight  \n The diameter is about 57mm,and the totally length is about 27mm,the plug is about 5.7mm. The net weitht is about 15.6g \n Input and Output The input is 12-24V, and the output is 5V/2.1A(Max) \n Safety assured With 7 sections of protection. Over-charging Protection, Over-voltage Protection, Over-heat Protection, Over-current Protection  Over-power Protection, Anti-anti-charge Protection, Short circuit Protection.  \n Charging Speed For iPhone: for iPhones/ iPods:1A; for iPads: 2.1A  For Android Phones: Samsung Galaxy S6 / S6 Edge, Samsung Galaxy S5, S4, S3, S2, Galaxy Note 2, 3; Motorola Droid RAZR                                              MAXX, Motorola X; HTC One X V S; and more: about 1A to 2.1A output (Note: the charging speed is according to the phone model and cable,please kindly understand)    \n Package included \n 1* Dual USB Car Charger \n Product Guarantee： \n 3 months no reason return, 24 months Warranty. \n After sale service： \n If you have any problem about this product ,please consult us freely at the first time, we will try our best to help you to solve this problem. And if you feel satisfied with our product, please leave all 5 stars positive feedback to us. Thank you!                                         \n \n  \n   \n       \n   \n  \n \n  \n",
-                            "sku": "32676034134",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-Car-Charger-Max-2-1A-USB-for-Mobile-Phone-Adapter-Car-USB-Phone-Charger-for/2008001_32676034134.html"
-                        },
-                        {
-                            "name": "USAMS Dual USB Car Charger Digital LED Display DC 5V 3.4A Universal car phone charger ",
-                            "image": "https://ae01.alicdn.com/kf/HTB17JHacNrI8KJjy0Fpq6z5hVXaf/USAMS-Dual-USB-Car-Charger-Digital-LED-Display-DC-5V-3-4A-Universal-car-phone-charger.jpg_640x640.jpg",
-                            "imageName": "32787505770.jpg",
-                            "description": "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\tMax 3.4A current \t\t\t\t\tThis charger is within the total 3.4A charging speed, to meet the need of faster charging expenience for you\t\t\t\t\t\t\t\t\t\t\t\t\tUniversal 2-Port USB Charging Station \t\t\t\t\tCharger 2 device simulatanously at their optimal charging speed, total output is 3.4A\t\t\t\t\t\t\t\t\t\t\t\t\tDigital LED Display\t\t\t\t\t\t\t\t\t\t\t\t\tThe LED diaplay can directly show the current of charge, provide the visual expenience for you \t\t\t\t\t\t\t\t\t\t\t\t\tInput and Output\t\t\t\t\tThe input voltage is 12-24V, and the output is 5V/3.4A(Max)\t\t\t\t\t\t\t\t\t\t\t\t\tNote: one port is 1A(max),another is 2.4A(max),the charger will intelligently stream the current, to make sure the security of your phone\t\t\t\t\t\t\t\t\t\t\t\t\tCharging Speed\t\t\t\t\t\t\t\t\t\t\t\t\tThe 2 ports totally: 3.4A\t\t\t\t\tFor iPhone: for iPhones/ iPods:0.5~1A; for iPads: 1~2.4A \t\t\t\t\tFor Android Phones: Samsung Galaxy S6 / S6 Edge, Samsung Galaxy S5, S4, S3, S2, Galaxy Note 2, 3; Motorola Droid RAZR                                              MAXX, Motorola X; HTC One X V S; and more:one port is about 0.5~1A ; another port is about 1A~2.4A output\t\t\t\t\t(Note: the charging speed is according to the phone model and cable,please kindly understand)\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\tPackage included\t\t\t\t\t\t\t\t\t\t\t\t\t1* Dual USB Car Charger\t\t\t\t\t\t\t\t\t\t\t\t\tAfter sale service：\t\t\t\t\t\t\t\t\t\t\t\t\tIf you have any problem about this product ,please consult us freely at the first time, we will try our best to help you to solve this problem. And if you feel satisfied with our product, please leave all 5 stars positive feedback to us. Thank you!                                        \t\t\t\t\t\t\t\t \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
-                            "sku": "32787505770",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-Dual-USB-Car-Charger-Digital-LED-Display-DC-5V-3-4A-Universal-car-phone-charger/2008001_32787505770.html"
-                        },
-                        {
-                            "name": "USAMS Universal Dual Ports Car Charger 2.1A USB Smart LED Display Car USB Phone Charger Mobile Phone Adapter for iPhone Samsung",
-                            "image": "https://ae01.alicdn.com/kf/HTB1QcTMc8fM8KJjSZFhq6ARyFXa0/USAMS-Universal-Dual-Ports-Car-Charger-2-1A-USB-Smart-LED-Display-Car-USB-Phone-Charger.jpg_640x640.jpg",
-                            "imageName": "32846042447.jpg",
-                            "description": "\t\t\t  \t\tUSAMS Universal Dual Ports Smart LED Display Car Charger 2.1A USB Mobile Phone Adapter Car USB Phone Charger for iPhone Samsung\tFeatures : \tMax 2.1A current \tThis charger is within the total 2.1A charging speed, this charging speed not only can support the need of charging, but it is more safe for you when driving. \tUniversal 2-Port USB Charging Station \tCharger 2 device simulatanously at their optimal charging speed, total output is 2.1A\tInput and Output\tThe input is 12-24V, and the output is 5V/2.1A(Max)\t  \tPackage includes : \t1* LED Dual USB Car Charger\t\t\t\t  ",
-                            "sku": "32846042447",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-Universal-Dual-Ports-Car-Charger-2-1A-USB-Smart-LED-Display-Car-USB-Phone-Charger/2008001_32846042447.html"
-                        },
-                        {
-                            "name": "Smart Phone Car Charger USAMS Square Max 2.4A Dual USB Port Adapter Car-Charger for iPhone tablets MP3 GPS DVRS ",
-                            "image": "https://ae01.alicdn.com/kf/HTB1EXUcb8DH8KJjy1zeq6xjepXap/Smart-Phone-Car-Charger-USAMS-Square-Max-2-4A-Dual-USB-Port-Adapter-Car-Charger-for.jpg_640x640.jpg",
-                            "imageName": "32798362465.jpg",
-                            "description": "  \n  \n   \n Max 2.4A current  This charger is within the total 2.4A charging speed, this charging speed not only can support the need of charging, but it is more safe for you when driving.  \n Universal 2-Port USB Charging Station  Charger 2 device simulatanously at their optimal charging speed, total output is 2.4A \n Size and Net Weight  \n The diameter is about 55mm,and the totally length is about 25mm,the plug is about 5.7mm. The net weitht is about 28.83g \n Input and Output The input is 12V-24V, and the output is 5V/2.4A(Max) \n Safety assured With 7 sections of protection. Over-charging Protection, Over-voltage Protection, Over-heat Protection, Over-current Protection  Over-power Protection, Anti-anti-charge Protection, Short circuit Protection.  \n Charging Speed For iPhone: for iPhones/ iPods:1A to 2A; for iPads: 1A to 2.4A  \n \n For Android Phones: Samsung Galaxy S6 / S6 Edge, Samsung Galaxy S5, S4, S3, S2, Galaxy Note 2, 3; Motorola Droid RAZR MAXX, Motorola X; HTC One X V S; and more: about 1A to 2.4A output \n \n\n  (Note: the charging speed is according to the phone model and cable,please kindly understand) \n \n    \n Package included \n 1* Dual USB Car Charger \n Product Guarantee： \n 3 months no reason return, 24 months Warranty. \n After sale service： \n If you have any problem about this product ,please consult us freely at the first time, we will try our best to help you to solve this problem. And if you feel satisfied with our product, please leave all 5 stars positive feedback to us. Thank you!                                         \n \n  \n   \n       \n   \n  \n \n  \n",
-                            "sku": "32798362465",
-                            "link": "https://www.aliexpress.com/store/product/Smart-Phone-Car-Charger-USAMS-Square-Max-2-4A-Dual-USB-Port-Adapter-Car-Charger-for/2008001_32798362465.html"
-                        },
-                        {
-                            "name": "USAMS Car-Charger 5V 3.1A Fast Charge Dual USB Metal Cigar Lighter Phone Car Charger For iphone Samsung Mobile Phone Charger",
-                            "image": "https://ae01.alicdn.com/kf/HTB1q2cgaBLN8KJjSZFPq6xoLXXaA/USAMS-Car-Charger-5V-3-1A-Fast-Charge-Dual-USB-Metal-Cigar-Lighter-Phone-Car-Charger.jpg_640x640.jpg",
-                            "imageName": "32764254902.jpg",
-                            "description": "  \n",
-                            "sku": "32764254902",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-Car-Charger-5V-3-1A-Fast-Charge-Dual-USB-Metal-Cigar-Lighter-Car-Phone-Charger/2008001_32764254902.html"
-                        },
-                        {
-                            "name": "USAMS 2 Ports QC 3.0 Car Charger Qualcomm 3.0 Phone Quick Car-Charger Compatible 2.0 Quick Fast Car Charger for Samsung Xiaomi",
-                            "image": "https://ae01.alicdn.com/kf/HTB1yEkUddLO8KJjSZPcq6yV0FXaK/USAMS-2-Ports-QC-3-0-Car-Charger-Qualcomm-3-0-Phone-Quick-Car-Charger-Compatible.jpg_640x640.jpg",
-                            "imageName": "32845288907.jpg",
-                            "description": "\t\t\t\t\t\t\t\t\t\tUSAMS 2 Ports QC 3.0 Car Charger Qualcomm 3.0 Phone Quick Car-Charger 2.0 Quick Compatible Car Fast Car Charger for Samsung Xiaomi HTC\t\t\t\t  \t\t\t\t  \t\t\t\tFeatures :\t\t\t\t1, QC 3.0 and QC 2.0, Quick car charger\t\t\t\t2, Universal 2-Port USB charging station\t\t\t\t3, Meet the needs of your charger demands with this quick charge car charger. The input voltage is 12-24V and the output is 3.6-6V 3A / 6.2-9V 3A / 9.2-12V 3A / 5V 2.4A.\t\t\t\t  \t\t\t\tPackage includes : \t\t\t\t1* Dual USB QC Car Charger\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t  ",
-                            "sku": "32845288907",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-2-Ports-QC-3-0-Car-Charger-Qualcomm-3-0-Phone-Quick-Car-Charger-Compatible/2008001_32845288907.html"
-                        },
-                        {
-                            "name": "5V 2.4A USB Charger USAMS  Phone Charger Build in Bluetooth 4.1 Earphone ",
-                            "image": "https://ae01.alicdn.com/kf/HTB1uBkcb4PI8KJjSspfq6ACFXXau/5V-2-4A-USB-Charger-USAMS-Phone-Charger-Build-in-Bluetooth-4-1-Earphone.jpg_640x640.jpg",
-                            "imageName": "32747978408.jpg",
-                            "description": "    \n \n  \n   \n                     \n   \n  \n \n 5V 2.4A USB Charger USAMS  Phone Charger Build in Bluetooth 4.1 Earphone  \n  \n  \n",
-                            "sku": "32747978408",
-                            "link": "https://www.aliexpress.com/store/product/5V-2-4A-USB-Charger-USAMS-Phone-Charger-Build-in-Bluetooth-4-1-Earphone/2008001_32747978408.html"
-                        }
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512392539,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Wireless Charger",
+                    "url": "//usams0001.aliexpress.com/store/group/Wireless-Charger/2008001_512392539.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-5V-2A-2-USB-Ports-8000mah-QI-Wireless-Charger-5W-Pad-Power-Bank-Built-in/2008001_32840173278.html",
+                        "https://www.aliexpress.com/store/product/For-iPhone-8-Wireless-charger-5V-2A-USAMS-metal-Original-Qi-Wireless-Charger-charging-pad-for/2008001_32835531371.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Universal-Fast-Charger-Qi-Wireless-Charger-5V-2A-Ultra-Mini-Recharger-Portable-Wireless-Battery-Charger/2008001_32841044635.html",
+                        "https://www.aliexpress.com/store/product/For-iPhone-8-Wireless-charger-5V-2A-USAMS-metal-Original-Qi-Wireless-Charger-charging-pad-for/2008001_32848663380.html"
                     ]
                 }
             ],
             "url": "//usams0001.aliexpress.com/store/group/Mobile-Phone-Charger/2008001_507040170.html"
+        },
+        {
+            "autoGroup": false,
+            "groupId": 506917321,
+            "groupType": "product",
+            "isExpand": "Y",
+            "name": "Mobile Phone Holder & Bracket",
+            "subGroupList": [
+                {
+                    "autoGroup": false,
+                    "groupId": 512134896,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Universal Car Phone Holder",
+                    "url": "//usams0001.aliexpress.com/store/group/Universal-Car-Phone-Holder/2008001_512134896.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/Car-Mobile-Phone-Holder-for-Iphone-6-Sumsung-Car-Air-Vent-Mount-Holder-USAMS-360-Degree/2008001_32604944534.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Gravity-Bracket-Car-Phone-Holder-Flexible-Universal-Car-Gravity-Holder-Support-Mobile-Phone-Stand-For/2008001_32840209546.html",
+                        "https://www.aliexpress.com/store/product/Finger-Ring-Holder-USAMS-360-Degree-Metal-Smartphone-Mobile-Phone-Hand-Spinner-Stand-Holder-For-iPhone/2008001_32819120930.html",
+                        "https://www.aliexpress.com/store/product/Car-Mobile-Phone-Holder-for-Iphone-6-Sumsung-Car-Air-Vent-Mount-Holder-USAMS-360-Degree/2008001_32608312750.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512138170,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Magnetic Car Phone Holder",
+                    "url": "//usams0001.aliexpress.com/store/group/Magnetic-Car-Phone-Holder/2008001_512138170.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Magnetic-360-Degree-Metal-Mobile-Phone-Holder-Universal-phone-Ring-Bracket-For-iPhone-Samsung-ipad/2008001_32831087610.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Magnetic-Cable-Clip-Collection-Desktop-Car-Storage-USB-Holder-Clips-Cord-Management-USB-Charging-Data/2008001_32829217620.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Car-Magnetic-Holder-360-Rotating-Phone-Holder-Universal-Air-Vent-Mount-Car-Magnet-Holder-Stand/2008001_32810314523.html",
+                        "https://www.aliexpress.com/store/product/Magnetic-Car-Phone-Holder-USAMS-0-3mm-Universal-Magnet-Car-Holder-for-iPhone-Samsung-HTC-LG/2008001_32663965790.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Magnetic-Phone-Holder-for-IPhone-Sumsung-Air-Vent-Mount-magnetic-car-holder-360-Degree-Ratotable/2008001_32791215548.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Universal-360-degree-Diamond-Ring-Holder-Magnetic-Metal-Car-Mobile-Phone-Holder-phone-Ring-Bracket/2008001_32846200396.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Magnetic-Car-Phone-Holder-For-iPhone-Samsung-3-kinds-Universal-Holder-Stand-360-Degree-Mount/2008001_32814761245.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Car-Perfume-Aroma-Diffuser-Magnetic-Cable-Clip-Collection-Air-Vent-Cable-Winder-perfumes-with-5/2008001_32815435288.html"
+                    ]
+                }
+            ],
+            "url": "//usams0001.aliexpress.com/store/group/Mobile-Phone-Holder-Bracket/2008001_506917321.html"
         },
         {
             "autoGroup": false,
@@ -116,123 +265,325 @@
                         "https://www.aliexpress.com/store/product/USAMS-case-for-iPhone-X-TPU-Transparent-for-Apple-X-Back-Cover-for-iPhoneX-case-shell/2008001_32833683922.html",
                         "https://www.aliexpress.com/store/product/Case-For-iPhone-X-USAMS-Soft-TPU-Case-Ultra-Thin-iPhoneX-Case-for-Apple-X-Back/2008001_32831239039.html",
                         "https://www.aliexpress.com/store/product/USAMS-Case-for-iPhone-X-Starry-Series-Glitter-Case-for-iPhoneX-Electroplating-Border-Cover-Protector-Cases/2008001_32840922677.html",
-                        "https://www.aliexpress.com/store/product/USAMS-Q-plating-Series-for-iPhone-X-Case-PC-Electroplating-Back-Cover-for-iphone-X-cases/2008001_32845177452.html",
                         "https://www.aliexpress.com/store/product/USAMS-Lavan-Series-Case-for-iPhone-X-10-TPU-Case-for-iPhoneX-Case-for-Apple-x/2008001_32842707021.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Q-plating-Series-for-iPhone-X-Case-PC-Electroplating-Back-Cover-for-iphone-X-cases/2008001_32845177452.html",
                         "https://www.aliexpress.com/store/product/Case-for-iPhone-X-matte-texture-USAMS-spray-painting-layer-Back-Cover-for-iPhoneX-cases-Fundas/2008001_32830409910.html",
                         "https://www.aliexpress.com/store/product/For-iPhone-X-Case-Full-Protective-USAMS-Litchi-texture-Back-Cover-iphone-X-cases-for-apple/2008001_32831918495.html",
                         "https://www.aliexpress.com/store/product/For-iphone-X-case-USAMS-Joe-Series-with-Litchi-lines-iphoneX-Luxury-PU-Leather-case/2008001_32828669025.html",
                         "https://www.aliexpress.com/store/product/Case-For-iPhone-8-USAMS-TPU-PC-Case-for-iPhone8-Case-for-Apple-8-Back-Cover/2008001_32830034997.html",
                         "https://www.aliexpress.com/store/product/USAMS-Muze-Series-Luxury-TPU-Case-for-iphone-8-case-Exquisite-Design-Cover-for-iphone8-with/2008001_32830054940.html"
-                    ],
-                    "scrapedProducts": [
-                        {
-                            "name": "USAMS TPU Case for iPhone 8 8 Plus Luxury Ultra Thin Case for iPhone 7 7 Plus 4.7 inches 5.5 inches Phone Case Cover for iPhoneX",
-                            "image": "https://ae01.alicdn.com/kf/HTB1JdzShMLD8KJjSszeq6yGRpXab/USAMS-TPU-Case-for-iPhone-8-8-Plus-Luxury-Ultra-Thin-Case-for-iPhone-7-7.jpg_640x640.jpg",
-                            "imageName": "32843837846.jpg",
-                            "description": "\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t                   \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUSAMS TPU Case for iPhone 8 8 Plus Luxury Ultra Thin Case for iPhone 7 7 Plus 4.7 inches 5.5 inches Phone Case Cover for iPhone X\t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\tThis is Luxury TPU Case for iPhone 7 7 Plus, for iPhone 8, 8 Plus, for iPhone X ,  it has a dust plug design, as thin as 0.3mm.\t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\tFeatures:\t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\tColor: Transparent / Transparent Black / Transparent Rose Gold\t\t\t\t\t\t\t\t\t\t\t\t\tFeature1: Great Permeability, similar to natural,crystal light color.\t\t\t\t\t\t\t\t\t\t\t\t\tFeature2: No yellow.Anti-sweat oxidation, say goodbye to yellow.\t\t\t\t\t\t\t\t\t\t\t\t\tFeature3: Dust Plug Design. Prevent the dust and water stains from enterring your phone. \t\t\t\t\t\t\t\tFeature4: More Sensitive Stereo Buttons. With Soft Stereo Butons, More sensitive in operation.\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\tPackage List:\t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t1* phone case for iphone \t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t",
-                            "sku": "32843837846",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-TPU-Case-for-iPhone-8-8-Plus-Luxury-Ultra-Thin-Case-for-iPhone-7-7/2008001_32843837846.html"
-                        },
-                        {
-                            "name": "Case for iPhone X USAMS Trunk Series Mobile Phone Case for iPhoneX Ultra Silm Cover Full Protector Cases for iphone X",
-                            "image": "https://ae01.alicdn.com/kf/HTB1Yx_ichPI8KJjSspoq6x6MFXak/Case-for-iPhone-X-USAMS-Trunk-Series-Mobile-Phone-Case-for-iPhoneX-Ultra-Silm-Cover-Full.jpg_640x640.jpg",
-                            "imageName": "32839681731.jpg",
-                            "description": "    \n \n     \n    \n     \n    \n  Case for iPhone X USAMS Trunk Series Mobile Phone Case for iPhoneX Ultra Silm Cover Full Protector Cases for iphone X  \n     \n  Products Features :  \n  Brand name : USAMS   \n  Type : US-BH398   \n  Series : Trunk Series  \n  Material : PC  \n  Color :  Black, Silver, Blue, Gold, Red  \n  Compatible Device : For iPhone X  \n     \n  Ship Method :      \n  Order < 5$,  ship by ordinary air mail  \n  Order > 5$,  ship by  registered air mail  \n       \n  Feedback :   \n  If you like our good & service, pls give us all five star, it is really important for us.Customer feedback is gold for us. Thank you in advance!    \n       \n  Not Received & Not Work :   \n  We promise all product are 100% original USAMS Brand. 100% full checking , all products have quality guarantee! But if you have any problem, you still can contact with us feel free, we will help you to solve it, if we can provide some picture or video to support, it will help us to solve prolem more fast than aliexpress stuff. Thank you!    \n       \n  Shopping Note :   \n  1. Accessory ONLY, mobile phone is not included. 2. Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not calibrated same.    \n     \n  Package Includes :   \n  1 * Case for iPhone X  \n     \n  Details Pictures :   \n    \n     \n     \n  \n \n   ",
-                            "sku": "32839681731",
-                            "link": "https://www.aliexpress.com/store/product/Case-for-iPhone-X-USAMS-Trunk-Series-Mobile-Phone-Case-for-iPhoneX-Ultra-Silm-Cover-Full/2008001_32839681731.html"
-                        },
-                        {
-                            "name": "For iPhone X Case Full Protective USAMS TPU & Acrylic Transparent Back Cover iphone X cases for apple X Shell",
-                            "image": "https://ae01.alicdn.com/kf/HTB1miXhcBcHL1JjSZFBq6yiGXXaT/For-iPhone-X-Case-Full-Protective-USAMS-TPU-Acrylic-Transparent-Back-Cover-iphone-X-cases-for.jpg_640x640.jpg",
-                            "imageName": "32828637485.jpg",
-                            "description": "    \n \n     \n    \n     \n     \n    \n  USAMS Original for iphone X Case Full Protective iphone X TPU+Acrylic Transparent Back Cover Apple x Case  \n  Products Feature:  \n  ​  \n  1.TPU+Acrylic Case  \n  2.Grid Texture. The back of the grid texture, strong visual impact and touch.   \n  3.Full-edge Design, Drop Resistance.   \n  4.independent Button. More sensitive and more comfortable.    \n  Ship Method  \n  Order < 5$,  ship by ordinary air mail  \n  Order > 5$,  ship by  registered air mail  \n       \n  Feedback  \n  If you like our good & service, pls give us all five star, it is really important for us.Customer feedback is gold for us. Thank you in advance!    \n       \n  Not Received & Not Work  \n  We promise all product are 100% original USAMS Brand. 100% full checking , all products have quality guarantee! But if you have any problem, you still can contact with us feel free, we will help you to solve it, if we can provide some picture or video to support, it will help us to solve prolem more fast than aliexpress stuff. Thank you!    \n       \n  Shopping Note:  \n  1. Accessory ONLY, mobile phone is not included. 2. Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not calibrated same.    \n     \n    \n  \n \n   ",
-                            "sku": "32828637485",
-                            "link": "https://www.aliexpress.com/store/product/For-iPhone-X-Case-Full-Protective-USAMS-TPU-Acrylic-Transparent-Back-Cover-iphone-X-cases-for/2008001_32828637485.html"
-                        },
-                        {
-                            "name": "USAMS case for iPhone X TPU Transparent for Apple X Back Cover for iPhoneX case shell",
-                            "image": "https://ae01.alicdn.com/kf/HTB1gC1IccrI8KJjy0Fhq6zfnpXao/USAMS-case-for-iPhone-X-TPU-Transparent-for-Apple-X-Back-Cover-for-iPhoneX-case-shell.jpg_640x640.jpg",
-                            "imageName": "32833683922.jpg",
-                            "description": "  \n  \n    \n Ship Method \n Order < 5$,  ship by ordinary air mail \n Order > 5$,  ship by  registered air mail \n    \n Feedback \n If you like our good & service, pls give us all five star, it is really important for us.Customer feedback is gold for us. Thank you in advance!  \n    \n Not Received & Not Work \n We promise all product are 100% original USAMS Brand. 100% full checking , all products have quality guarantee! But if you have any problem, you still can contact with us feel free, we will help you to solve it, if we can provide some picture or video to support, it will help us to solve prolem more fast than aliexpress stuff. Thank you!  \n    \n Shopping Note: \n 1. Accessory ONLY, mobile phone is not included. 2. Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not calibrated same.  \n    \n Package included: \n    \n 1 * Phone Case \n    \n  \n  \n  \n  \n  ",
-                            "sku": "32833683922",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-case-for-iPhone-X-TPU-Transparent-for-Apple-X-Back-Cover-for-iPhoneX-case-shell/2008001_32833683922.html"
-                        },
-                        {
-                            "name": "Case For iPhone X USAMS Soft TPU Case Ultra Thin iPhoneX Case for Apple X Back Cover Shell Fundas ",
-                            "image": "https://ae01.alicdn.com/kf/HTB1Q08GXOqAXuNjy1Xdq6yYcVXa3/Case-For-iPhone-X-USAMS-Soft-TPU-Case-Ultra-Thin-iPhoneX-Case-for-Apple-X-Back.jpg_640x640.jpg",
-                            "imageName": "32831239039.jpg",
-                            "description": " \n  \n   \n                USAMS Soft TPU Case For iPhone X Case Ultra Thin iPhoneX Case for iPhone X Back Cover Shell Fundas       This is Luxury TPU Case for iPhone X ,  it has a dust plug design, as thin as 0.3mm.       Features:       Color: Transparent / Transparent Black / Transparent Gold   Feature1: Great Permeability, similar to natural,crystal light color.   Feature2: No yellow.Anti-sweat oxidation, say goodbye to yellow.   Feature3: Dust Plug Design. Prevent the dust and water stains from enterring your phone.   Feature4: More Sensitive Stereo Buttons. With Soft Stereo Butons, More sensitive in operation.      Note:   1. Accessory ONLY, mobile phone is not included. 2. Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not calibrated same.       Package List:   1* phone case for iphone X       \n       \n   \n   \n            \n       \n   \n  \n \n  \n  \n  \n",
-                            "sku": "32831239039",
-                            "link": "https://www.aliexpress.com/store/product/Case-For-iPhone-X-USAMS-Soft-TPU-Case-Ultra-Thin-iPhoneX-Case-for-Apple-X-Back/2008001_32831239039.html"
-                        },
-                        {
-                            "name": "USAMS Case for iPhone X Starry Series Glitter Case for iPhoneX Electroplating Border Cover Protector Cases UV Spray for iphonex",
-                            "image": "https://ae01.alicdn.com/kf/HTB131qWcbYI8KJjy0Faq6zAiVXaD/USAMS-Case-for-iPhone-X-Starry-Series-Glitter-Case-for-iPhoneX-Electroplating-Border-Cover-Protector-Cases.jpg_640x640.jpg",
-                            "imageName": "32840922677.jpg",
-                            "description": "    \n \n    \n    \n    \n  USAMS Case for iPhone X Starry Series Glitter Case for iPhoneX Electroplating Border Cover Protector Cases UV Spray for iphonex  \n     \n  Products Features :  \n  Brand name : USAMS   \n  Type : US-BH387    \n  Series : Starry Series  \n  Material : PC  \n  Color :  Black, White, Gold  \n  Compatible Device : For iPhone X  \n  Process Characteristics: Electroplating Border + Surface Spraying UV  \n     \n  Ship Method :      \n  Order < 5$,  ship by ordinary air mail  \n  Order > 5$,  ship by  registered air mail  \n       \n  Feedback :   \n  If you like our good & service, pls give us all five star, it is really important for us.Customer feedback is gold for us. Thank you in advance!    \n       \n  Not Received & Not Work :   \n  We promise all product are 100% original USAMS Brand. 100% full checking , all products have quality guarantee! But if you have any problem, you still can contact with us feel free, we will help you to solve it, if we can provide some picture or video to support, it will help us to solve prolem more fast than aliexpress stuff. Thank you!    \n       \n  Shopping Note :   \n  1. Accessory ONLY, mobile phone is not included. 2. Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not calibrated same.    \n     \n  Package Includes :   \n  1 * Case for iPhone X  \n     \n  Details Pictures :   \n     \n    \n    \n  \n \n   ",
-                            "sku": "32840922677",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-Case-for-iPhone-X-Starry-Series-Glitter-Case-for-iPhoneX-Electroplating-Border-Cover-Protector-Cases/2008001_32840922677.html"
-                        },
-                        {
-                            "name": "USAMS Q-plating Series for iPhone X Case PC Electroplating Back Cover for iphone X cases Full Protective case shell for apple X",
-                            "image": "https://ae01.alicdn.com/kf/HTB1E8D1dXHM8KJjSZFwq6AibXXaZ/USAMS-Q-plating-Series-for-iPhone-X-Case-PC-Electroplating-Back-Cover-for-iphone-X-cases.jpg_640x640.jpg",
-                            "imageName": "32845177452.jpg",
-                            "description": "\t  \t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUSAMS Q-plating Series for iPhone X Case PC Electroplating Back Cover for iphone X cases Full Protective case shell for apple X\t\t\t\t  \t\t\t\tProducts Feature:\t\t\t\t​\t\t\t\t1. PC electroplating Case\t\t\t\t2, Refuse watermark and anti-yellowing\t\t\t\t3. Full-edge Design, Drop Resistance. \t\t\t\t4. Independent Button. More sensitive and more comfortable.  \t\t\t\t  \t\t\t\tPackage Includes : \t\t\t\t1 * Case for iPhone x\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  ",
-                            "sku": "32845177452",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-Q-plating-Series-for-iPhone-X-Case-PC-Electroplating-Back-Cover-for-iphone-X-cases/2008001_32845177452.html"
-                        },
-                        {
-                            "name": "USAMS Lavan Series Case for iPhone X 10 TPU Case for iPhoneX Case for Apple x Back Cover Shell",
-                            "image": "https://ae01.alicdn.com/kf/HTB1RIbbc0bJ8KJjy1zjq6yqapXab/USAMS-Lavan-Series-Case-for-iPhone-X-10-TPU-Case-for-iPhoneX-Case-for-Apple-x.jpg_640x640.jpg",
-                            "imageName": "32842707021.jpg",
-                            "description": "\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  \t  ",
-                            "sku": "32842707021",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-Lavan-Series-Case-for-iPhone-X-10-TPU-Case-for-iPhoneX-Case-for-Apple-x/2008001_32842707021.html"
-                        },
-                        {
-                            "name": "Case for iPhone X matte texture USAMS spray painting layer Back Cover for iPhoneX cases Fundas",
-                            "image": "https://ae01.alicdn.com/kf/HTB1CKxTXQfb_uJkHFNRq6A3vpXak/Case-for-iPhone-X-matte-texture-USAMS-spray-painting-layer-Back-Cover-for-iPhoneX-cases-Fundas.jpg_640x640.jpg",
-                            "imageName": "32830409910.jpg",
-                            "description": "\t\t\t\t",
-                            "sku": "32830409910",
-                            "link": "https://www.aliexpress.com/store/product/Case-for-iPhone-X-matte-texture-USAMS-spray-painting-layer-Back-Cover-for-iPhoneX-cases-Fundas/2008001_32830409910.html"
-                        },
-                        {
-                            "name": "For iPhone X Case Full Protective USAMS Litchi texture Back Cover iphone X cases for apple X Shell",
-                            "image": "https://ae01.alicdn.com/kf/HTB15y.vbZjI8KJjSsppq6xbyVXaR/For-iPhone-X-Case-Full-Protective-USAMS-Litchi-texture-Back-Cover-iphone-X-cases-for-apple.jpg_640x640.jpg",
-                            "imageName": "32831918495.jpg",
-                            "description": "  \n  \n  \n  \n   \n\n    \n",
-                            "sku": "32831918495",
-                            "link": "https://www.aliexpress.com/store/product/For-iPhone-X-Case-Full-Protective-USAMS-Litchi-texture-Back-Cover-iphone-X-cases-for-apple/2008001_32831918495.html"
-                        },
-                        {
-                            "name": " For iphone X case USAMS Joe Series with Litchi lines iphoneX Luxury PU Leather case for Apple X",
-                            "image": "https://ae01.alicdn.com/kf/HTB117W1cNrI8KJjy0Fpq6z5hVXaj/For-iphone-X-case-USAMS-Joe-Series-with-Litchi-lines-iphoneX-Luxury-PU-Leather-case.jpg_640x640.jpg",
-                            "imageName": "32828669025.jpg",
-                            "description": "  \n \n  \n \n Shopping Guide \n Order < 5$,  No Track Information \n Order > 5$,  HAVE Track Information  \n Feedback,   Pls give five star , It is very important for us. IF you have any question , Pls contact us. \n    \n \n  \n   \n       \n       \n   \n   \n      \n       \n   \n  \n \n For iphone 8 case cover USAMS Joe Series with Litchi lines Luxury  PU Leather case for Apple iphone8 \n This Case is made of high-end Pu Leather, and case is 0.3mm higher than the camera, it can protect your phone well.  \n Products Feature: \n 1.Pu leather  \n 2.High Touch Sensitive  \n 3.Accurate Hole, easy to use.  \n 4.Anti - Fingerprint  \n Note: 1. Accessory ONLY, mobile phone is not included. 2. Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not calibrated same. \n    \n Specifications: \n Compatible Device : For iphone 8  \n    \n Package List: \n 1* case for iphone 8 \n \n  \n   \n         \n      \n   \n  \n \n    \n   ",
-                            "sku": "32828669025",
-                            "link": "https://www.aliexpress.com/store/product/For-iphone-X-case-USAMS-Joe-Series-with-Litchi-lines-iphoneX-Luxury-PU-Leather-case/2008001_32828669025.html"
-                        },
-                        {
-                            "name": "Case For iPhone X USAMS TPU+PC Case for iPhoneX Case for Apple x Back Cover Shell",
-                            "image": "https://ae01.alicdn.com/kf/HTB1XZJ4aBLN8KJjSZFPq6xoLXXaX/Case-For-iPhone-X-USAMS-TPU-PC-Case-for-iPhoneX-Case-for-Apple-x-Back-Cover.jpg_640x640.jpg",
-                            "imageName": "32830034997.jpg",
-                            "description": "\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tNote:\t\t\t\t\t\t\t\t\t\t\t\t\t1. Accessory ONLY, mobile phone is not included.\t\t\t\t\t2. Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not calibrated same. \t\t\t\t\t\t\t\t\t\t\t\t\t  \t\t\t\t\t\t\t\t\t\t\t\t\tPackage List:\t\t\t\t\t\t\t\t\t\t\t\t\t1* phone case for iphone X\t\t\t\t\t\t\t\t\t\t\t\t  ",
-                            "sku": "32830034997",
-                            "link": "https://www.aliexpress.com/store/product/Case-For-iPhone-8-USAMS-TPU-PC-Case-for-iPhone8-Case-for-Apple-8-Back-Cover/2008001_32830034997.html"
-                        },
-                        {
-                            "name": "USAMS Muze Series Luxury TPU Case for iphone X case Exquisite Design Cover for iphoneX with Elastic Button Apple X",
-                            "image": "https://ae01.alicdn.com/kf/HTB1N18Fc3fH8KJjy1zcq6ATzpXat/USAMS-Muze-Series-Luxury-TPU-Case-for-iphone-X-case-Exquisite-Design-Cover-for-iphoneX-with.jpg_640x640.jpg",
-                            "imageName": "32830054940.jpg",
-                            "description": "  \n USAMS Muze Series Luxury TPU Case for iphone X case Exquisite Design Cover for iphone X with Elastic Button  \n  \n Products Feature: \n 1.TPU Case  \n\n  2.Collocation of twill shiny side and matte side \n \n 3.Accurate Hole, easy to use.  \n 4.Anti - Fingerprint  \n Note: 1. Accessory ONLY, mobile phone is not included. 2. Item color displayed in photos may be showing slightly different on your computer monitor since monitors are not calibrated same. \n    \n Specifications: \n    \n Compatible Device : For iPhone X  \n  \n\n    \n \n  \n  \n",
-                            "sku": "32830054940",
-                            "link": "https://www.aliexpress.com/store/product/USAMS-Muze-Series-Luxury-TPU-Case-for-iphone-8-case-Exquisite-Design-Cover-for-iphone8-with/2008001_32830054940.html"
-                        }
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512287456,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For iPhone 8, 8 Plus",
+                    "url": "//usams0001.aliexpress.com/store/group/For-iPhone-8-8-Plus/2008001_512287456.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-TPU-Case-for-iPhone-8-8-Plus-Luxury-Ultra-Thin-Case-for-iPhone-7-7/2008001_32843837846.html",
+                        "https://www.aliexpress.com/store/product/USAMS-For-iPhone-8-Case-TPU-PC-Transparent-Back-Cover-for-iPhone-8-Plus-Apple-Phone/2008001_32835769243.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Plating-Case-for-iPhone-7-8-7Plus-8-Plus-Ultra-Thin-Back-Case-for-iPhone/2008001_32847919379.html",
+                        "https://www.aliexpress.com/store/product/USAMS-For-iPhone-8-Case-Breathable-TPU-Radiating-Back-Cover-iphone8-cases-for-iPhone-7-7/2008001_32847067691.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Yun-Series-Breathable-Case-For-iPhone-8-Case-TPU-Back-Cover-for-iPhone-8-Plus/2008001_32847011187.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Breathable-Case-For-iPhone-7-8-Case-TPU-Back-Cover-for-iPhone-7-8-Plus/2008001_32844585613.html",
+                        "https://www.aliexpress.com/store/product/Case-for-iPhone-7-7S-Recyclable-material-USAMS-Wheat-fiber-for-iPhone7S-Back-Cover-for-iPhone/2008001_32831463940.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512311276,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For iPhone 7, 7 Plus",
+                    "url": "//usams0001.aliexpress.com/store/group/For-iPhone-7-7-Plus/2008001_512311276.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-TPU-Case-for-iPhone-8-8-Plus-Luxury-Ultra-Thin-Case-for-iPhone-7-7/2008001_32843837846.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Bob-Series-PU-Leather-Case-for-iphone-7-Phone-case-Cover-Bags-Cases/2008001_32722852202.html",
+                        "https://www.aliexpress.com/store/product/For-iphone-7-Case-Full-Protective-USAMS-TPU-Acrylic-Transparent-Back-Cover-cases-for-iPhone-7/2008001_32801166656.html",
+                        "https://www.aliexpress.com/store/product/USAMS-TPU-Case-For-iPhone-7-0-8mm-Luxury-Ultra-Thin-Case-for-iPhone7-4-7/2008001_32812393051.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Luxury-TPU-Case-For-iPhone-7-Case-0-8mm-Ultra-Thin-Case-for-iPhone-7/2008001_32722780442.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Cool-Series-Luxury-TPU-Case-for-iphone-7-case-Exquisite-Design-Cover-for-iphone-7/2008001_32721985261.html",
+                        "https://www.aliexpress.com/store/product/For-iphone-7-case-cover-usams-Joe-Series-with-Litchi-lines-Luxury-PU-Leather-case-for/2008001_32727745578.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Plating-Case-for-iPhone-7-8-7Plus-8-Plus-Ultra-Thin-Back-Case-for-iPhone/2008001_32847919379.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Anti-fall-Cooling-Breathable-Case-For-iPhone-7-Yun-Series-TPU-Back-Cover-for-iPhone/2008001_32845922845.html",
+                        "https://www.aliexpress.com/store/product/USAMS-For-iPhone-8-Case-Breathable-TPU-Radiating-Back-Cover-iphone8-cases-for-iPhone-7-7/2008001_32847067691.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Breathable-Case-For-iPhone-7-8-Case-TPU-Back-Cover-for-iPhone-7-8-Plus/2008001_32844585613.html",
+                        "https://www.aliexpress.com/store/product/For-iphone-7-case-cover-USAMS-Ease-Series-Anti-knock-shockproof-Aluminium-Back-Case-Clear-TPU/2008001_32730323394.html",
+                        "https://www.aliexpress.com/store/product/Case-for-iPhone-7-7S-Recyclable-material-USAMS-Wheat-fiber-for-iPhone7S-Back-Cover-for-iPhone/2008001_32831463940.html",
+                        "https://www.aliexpress.com/store/product/For-iphone-7-Case-Cover-USAMS-Gelin-Series-Slim-3D-Grid-texture-TPU-Phone-Case-Back/2008001_32731445862.html",
+                        "https://www.aliexpress.com/store/product/For-iPhone-7-TPU-Case-USAMS-Mingo-Series-Anti-knock-Back-Case-for-iPhone-7-4/2008001_32740099440.html",
+                        "https://www.aliexpress.com/store/product/USAMS-PC-TPU-Dual-Layer-Protection-Anti-knock-Case-Cover-for-iPhone-7-iPhone-7-Plus/2008001_32787115327.html",
+                        "https://www.aliexpress.com/store/product/For-iphone-7-iphone-7-Plus-Cover-Case-USAMS-Elegant-Series-Plating-PC-PU-Three-splicing/2008001_32750445453.html",
+                        "https://www.aliexpress.com/store/product/For-iphone-7-plus-case-cover-USAMS-Slim-Clear-Crystal-TPU-Phone-Case-clear-Back-Cover/2008001_32727681505.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Knight-Series-PC-TPU-Case-For-iphone-7-Anti-Skid-Grid-texture-Cover-for-iphone/2008001_32722486906.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Art-Craft-Style-Skeleton-TPU-Case-for-iphone7-ipone-7-iphone-7-Cover-Case-4/2008001_32764308047.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 510232858,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For iPhone 6, 6 Plus",
+                    "url": "//usams0001.aliexpress.com/store/group/For-iPhone-6-6-Plus/2008001_510232858.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/For-iPhone-6S-Case-USAMS-Ultra-Slim-TPU-Acrylic-Cover-Case-for-iPhone-6-6S-Plus/2008001_32845130051.html",
+                        "https://www.aliexpress.com/store/product/Case-for-iPhone-6-6S-USAMS-Original-Ultra-Slim-TPU-Acrylic-Clear-shell-for-iPhone-6/2008001_32801209878.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 509931852,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For Samsung ",
+                    "url": "//usams0001.aliexpress.com/store/group/For-Samsung/2008001_509931852.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Full-Protective-Case-for-Samsung-Galaxy-S8-TPU-Acrylic-Transparent-Back-Cover-Ultra-Slim-for/2008001_32807313221.html",
+                        "https://www.aliexpress.com/store/product/For-Samsung-Note-8-Case-USAMS-TPU-Acrylic-Ultra-Thin-Transparent-Back-Cover-iphone7-cases-Full/2008001_32830747943.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Merly-Series-Case-For-Samsung-Galaxy-S8-Case-S8-Back-Cover-Ultra-Slim-for-samsung/2008001_32801129617.html",
+                        "https://www.aliexpress.com/store/product/For-Samsung-Galaxy-S7-egde-case-USAMS-Soft-case-for-S7-edge-Leather-Back-Cover-Ultra/2008001_32642829408.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 511645512,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For Huawei",
+                    "url": "//usams0001.aliexpress.com/store/group/For-Huawei/2008001_511645512.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Case-For-honor-9-Ultra-Slim-TPU-Acrylic-Cover-Case-For-huawei-honor-9-Full/2008001_32825224668.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 511567192,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For Xiaomi",
+                    "url": "//usams0001.aliexpress.com/store/group/For-Xiaomi/2008001_511567192.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Full-Protective-Case-for-Xiaomi-Mi-6-TPU-Acrylic-Transparent-Back-Cover-Ultra-Slim-for/2008001_32809576319.html"
                     ]
                 }
             ],
             "url": "//usams0001.aliexpress.com/store/group/Phone-Case-Cover/2008001_507052187.html"
+        },
+        {
+            "autoGroup": false,
+            "groupId": 506635111,
+            "groupType": "product",
+            "isExpand": "Y",
+            "name": "Screen Protector Glass & Film",
+            "subGroupList": [
+                {
+                    "autoGroup": false,
+                    "groupId": 512199848,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For iPhone X",
+                    "url": "//usams0001.aliexpress.com/store/group/For-iPhone-X/2008001_512199848.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/For-iPhone-X-Glass-USAMS-0-23mm-9H-Carbon-Fiber-3D-Full-Cover-Tempered-Glass-for/2008001_32837751631.html",
+                        "https://www.aliexpress.com/store/product/2PCS-lot-For-iPhone-X-USAMS-camera-Lens-Screen-Protector-Tempered-Glass-Film-9H-Gorilla-Glass/2008001_32845347729.html",
+                        "https://www.aliexpress.com/store/product/For-iPhone-X-USAMS-camera-Lens-Screen-Protector-Tempered-Glass-Film-9H-Corning-Gorilla-Glass-Scratch/2008001_32841394307.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Back-Glass-For-iPhone-X-Tempered-Glass-0-3mm-3D-9H-Back-Screen-Protection-Film/2008001_32844093680.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Protector-Glass-For-iPhonex-0-15mm-Carbon-Fiber-9H-3D-Full-Cover-Tempered-Glass-for/2008001_32845526162.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512504636,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For iPhone 8, 8 Plus",
+                    "url": "//usams0001.aliexpress.com/store/group/For-iPhone-8-8-Plus/2008001_512504636.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-For-iPhone-8-Glass-0-25mm-9H-3D-Carbon-Fiber-Full-Cover-Tempered-Glass-for/2008001_32845561907.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512199849,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For iPhone 7, 7 Plus",
+                    "url": "//usams0001.aliexpress.com/store/group/For-iPhone-7-7-Plus/2008001_512199849.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/For-iPhone-7-Glass-USAMS-0-3mm-9H-Carbon-Fiber-3D-Full-Tempered-Glass-for-iPhone/2008001_32732352704.html",
+                        "https://www.aliexpress.com/store/product/For-iPhone-6-Glass-USAMS-9H-Hardness-anti-scratch-Tempered-Glass-for-iphone-6-s-iphone/2008001_32760413319.html",
+                        "https://www.aliexpress.com/store/product/For-iPhone-7-7-plus-USAMS-camera-Lens-Screen-Protector-Tempered-Glass-Film-9H-Corning-Gorilla/2008001_32794727155.html",
+                        "https://www.aliexpress.com/store/product/2-Pcs-Set-USAMS-9H-3D-Carbon-Fiber-0-3MM-Tempered-Glass-for-iPhone-6-6s/2008001_32669484283.html",
+                        "https://www.aliexpress.com/store/product/USAMS-2-Pcs-Lot-9H-3D-0-3mm-Carbon-Fiber-Tempered-Glass-for-iPhone-6-6s/2008001_32846412967.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512195846,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For iPhone 6, 6 Plus",
+                    "url": "//usams0001.aliexpress.com/store/group/For-iPhone-6-6-Plus/2008001_512195846.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-0-3mm-9H-Carbon-Fiber-3D-Tempered-Glass-for-iPhone-6-6s-Screen-Protector-Protective/2008001_32668958036.html",
+                        "https://www.aliexpress.com/store/product/2-Pcs-Set-USAMS-9H-3D-Carbon-Fiber-0-3MM-Tempered-Glass-for-iPhone-6-6s/2008001_32669484283.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512195849,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "For Samsung ",
+                    "url": "//usams0001.aliexpress.com/store/group/For-Samsung/2008001_512195849.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Curved-Tempered-Protector-Film-For-Samsung-Galaxy-Note-8-Ultra-thin-Tempered-Glass-9H-3D/2008001_32846627048.html",
+                        "https://www.aliexpress.com/store/product/USAMS-For-Samsung-Galaxy-S8-Ultra-thin-Tempered-Glass-9H-Carbon-Fiber-3D-Glass-for-S8/2008001_32808073783.html"
+                    ]
+                }
+            ],
+            "url": "//usams0001.aliexpress.com/store/group/Screen-Protector-Glass-Film/2008001_506635111.html"
+        },
+        {
+            "autoGroup": false,
+            "groupId": 509923943,
+            "groupType": "product",
+            "isExpand": "Y",
+            "name": "Phone Accessories & Phone Partner",
+            "subGroupList": [
+                {
+                    "autoGroup": false,
+                    "groupId": 512311310,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Mobile Phone Accessories",
+                    "url": "//usams0001.aliexpress.com/store/group/Mobile-Phone-Accessories/2008001_512311310.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Magnetic-Cable-Clip-Collection-Desktop-Car-Storage-USB-Holder-Clips-Cord-Management-USB-Charging-Data/2008001_32829217620.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Aluminum-Touch-ID-Home-Button-Sticker-for-iPhone-SE-5S-6-6S-7-iPad-Support/2008001_32815829478.html",
+                        "https://www.aliexpress.com/store/product/For-iPhone-7-7-plus-USAMS-camera-Lens-Screen-Protector-Tempered-Glass-Film-9H-Corning-Gorilla/2008001_32794727155.html",
+                        "https://www.aliexpress.com/store/product/For-iPhone-X-USAMS-camera-Lens-Screen-Protector-Tempered-Glass-Film-9H-Corning-Gorilla-Glass-Scratch/2008001_32841394307.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Car-Perfume-Aroma-Diffuser-Magnetic-Cable-Clip-Collection-Air-Vent-Cable-Winder-perfumes-with-5/2008001_32815435288.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512504665,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Waterproof Bag & Sport Waist Bag",
+                    "url": "//usams0001.aliexpress.com/store/group/Waterproof-Bag-Sport-Waist-Bag/2008001_512504665.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Ipx8-Waterproof-Phone-Bag-Transparent-Touchable-Pouch-Beach-Airbag-Underwater-Phone-Bag-for-Samsung-iPhone/2008001_32810662583.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Universal-waterproof-phone-bag-transparent-touchable-pouch-beach-Underwater-phone-Bag-for-galaxy-s6-s5/2008001_32674632781.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Adjustable-Sport-Running-Waterproof-Phone-Case-Waist-Nylon-Pouch-Mobile-Phone-Bag-for-iPhone-6s/2008001_32722215272.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Adjustable-Sport-Running-Waterproof-Phone-Case-Waist-Nylon-Pouch-Mobile-Phone-Bag-for-iPhone-6s/2008001_32722147732.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512138218,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Selfie Stick & Selfie Accessories",
+                    "url": "//usams0001.aliexpress.com/store/group/Selfie-Stick-Selfie-Accessories/2008001_512138218.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-with-Selfie-Mirror-Selfie-Stick-for-iPhone-7-iPhone-7-plus-iPhone-5-5s-iPhone/2008001_32757909781.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Selfie-Led-Light-Holder-for-iPhone-Samsung-Huawei-Xiaomi/2008001_32781004248.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Universal-3-5MM-Port-Wired-Selfie-Stick-for-iPhone-5-6-Stainless-Steel-Selfiestick-for/2008001_32840047259.html"
+                    ]
+                }
+            ],
+            "url": "//usams0001.aliexpress.com/store/group/Phone-Accessories-Phone-Partner/2008001_509923943.html"
+        },
+        {
+            "autoGroup": false,
+            "groupId": 506582290,
+            "groupType": "product",
+            "isExpand": "Y",
+            "name": "Earphone ",
+            "subGroupList": [
+                {
+                    "autoGroup": false,
+                    "groupId": 510228891,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "3.5mm Earphone",
+                    "url": "//usams0001.aliexpress.com/store/group/3-5mm-Earphone/2008001_510228891.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/Hifi-Earphone-In-Ear-3-5mm-Original-USAMS-AUX-with-Mic-Wire-Control-for-iphone-Xiaomi/2008001_32823219577.html",
+                        "https://www.aliexpress.com/store/product/USAMS-1-2m-In-Ear-Wired-3-5mm-Colorful-Doug-Earphone-Waterproof-Sport-Earphones-Earbuds-with/2008001_32673949480.html",
+                        "https://www.aliexpress.com/store/product/Original-USAMS-Earphone-Noise-Cancelling-In-Ear-3-5mm-AUX-with-Mic-Wire-Control-for-iphone/2008001_32823179702.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Professional-In-Ear-Earphone-Metal-Heavy-Bass-Sound-Quality-Music-Earphone-China-s-High-End/2008001_32763112633.html",
+                        "https://www.aliexpress.com/store/product/Original-USAMS-Hifi-Earphone-Noise-Cancelling-In-Ear-3-5mm-AUX-with-Mic-Wire-Control-for/2008001_32821132734.html",
+                        "https://www.aliexpress.com/store/product/USAMS-3-5mm-in-ear-Stereo-Earphone-with-Mic-Microphone-1-2m-HiFi-Supper-Bass-Earphone/2008001_32692631546.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Stereo-Earphone-In-Ear-3-5mm-Colorful-Earphone-With-Mic-Earphones/2008001_32842983049.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 509889030,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Bluetooth Earphone",
+                    "url": "//usams0001.aliexpress.com/store/group/Bluetooth-Earphone/2008001_509889030.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-Wireless-Bluetooth-Earphones-Microphone-MIC-Stereo-Handfree-Bluetooth-4-1-Headset-HD-Noise-Reduction-For/2008001_32841796610.html",
+                        "https://www.aliexpress.com/store/product/USAMS-In-ear-Wireless-Bluetooth-V4-1-Earphones-2-in-1-Smart-Connect-HD-Noise-Reduction/2008001_32843454233.html",
+                        "https://www.aliexpress.com/store/product/USAMS-FC-Sport-Wireless-Earphones-Stereo-Bluetooth-Wireless-Sports-Earphone-Headset-with-MIC-Microphone-for-iphone/2008001_32841796905.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Bluetooth-Earphone-Mini-Wireless-Earphones-with-Microphone-MIC-Stereo-Handfree-Hybrid-Earphone-for-Iphone-Samsung/2008001_32763290882.html",
+                        "https://www.aliexpress.com/store/product/Original-USAMS-bluetooth-headset-Stereo-Heavy-Bass-Microphone-wireless-headphones-for-computer-phones-music/2008001_32797383876.html",
+                        "https://www.aliexpress.com/store/product/Original-USAMS-Stereo-Bluetooth-Headphones-Headset-Bluetooth-4-1-For-iPhone-Samsung-Xiaomi-Bluetooth-Earphone-Mic/2008001_32694875161.html"
+                    ]
+                },
+                {
+                    "autoGroup": false,
+                    "groupId": 512138196,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "Earphone Accessories",
+                    "url": "//usams0001.aliexpress.com/store/group/Earphone-Accessories/2008001_512138196.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/Aux-Cable-Car-3-5mm-to-3-5mm-Jack-Audio-Cable-Kabel-Male-to-Male-USAMS/2008001_32829998369.html",
+                        "https://www.aliexpress.com/store/product/5V-2-4A-USB-Charger-USAMS-Phone-Charger-Build-in-Bluetooth-4-1-Earphone/2008001_32747978408.html",
+                        "https://www.aliexpress.com/store/product/USAMS-3-5mm-Plug-Jack-1m-2m-Aux-Audio-Extension-Cable-Stereo-Male-to-Female-Aux/2008001_32831904933.html",
+                        "https://www.aliexpress.com/store/product/USAMS-3-5mm-Audio-Cable-90-Degree-Right-Angle-Jack-3-5-mm-Aux-Cable-for/2008001_32831538874.html",
+                        "https://www.aliexpress.com/store/product/USAMS-3-5mm-2-in-1-Y-Splitter-Adapter-Audio-Aux-Cable-Stereo-Headphone-50cm-Male/2008001_32833535572.html"
+                    ]
+                }
+            ],
+            "url": "//usams0001.aliexpress.com/store/group/Earphone/2008001_506582290.html"
+        },
+        {
+            "autoGroup": false,
+            "groupId": 506958276,
+            "groupType": "product",
+            "isExpand": "Y",
+            "name": "OTG & Adapter",
+            "subGroupList": [
+                {
+                    "autoGroup": false,
+                    "groupId": 506958276,
+                    "groupType": "product",
+                    "isExpand": "N",
+                    "name": "OTG & Adapter",
+                    "url": "//usams0001.aliexpress.com/store/group/OTG-Adapter/2008001_506958276.html",
+                    "products": [
+                        "https://www.aliexpress.com/store/product/USAMS-For-iPhone-OTG-Micro-Usb-Adapter-Micro-Cable-to-Light-Charging-Data-Sync-Cable-for/2008001_32831123612.html",
+                        "https://www.aliexpress.com/store/product/Micro-USB-To-USB-OTG-USAMS-Adapter-2-0-Converter-For-Samsung-Galaxy-S5-Tablet-Pc/2008001_32829008905.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Metal-USB-C-Type-C-Male-to-USB-3-0-Female-for-xiaomi-4c-Type/2008001_32829076561.html",
+                        "https://www.aliexpress.com/store/product/USAMS-For-iphone-5-6-7-Plus-TF-Card-128GB-Max-Expansion-Type-Adapter-Charging-For/2008001_32844051524.html",
+                        "https://www.aliexpress.com/store/product/USAMS-2-in-1-For-Lightning-to-3-5mm-AUX-Plug-Adapter-for-iPhone-7-iPhone/2008001_32831795581.html",
+                        "https://www.aliexpress.com/store/product/Micro-Usb-Cable-to-Usb-Type-C-Type-C-Adapter-USAMS-Data-Sync-Charging-For-Oneplus/2008001_32605763054.html",
+                        "https://www.aliexpress.com/store/product/USAMS-HDMI-Cable-HDMI-to-8-pin-cable-2m-HDMI-4k-3D-60FPS-Cable-for-iPhone/2008001_32815707226.html",
+                        "https://www.aliexpress.com/store/product/USAMS-Dual-Ports-For-iPhone-Adapter-Aluminum-Alloy-Charging-for-Lightning-OTG-for-iPhone-8-7/2008001_32841781882.html"
+                    ]
+                }
+            ],
+            "url": "//usams0001.aliexpress.com/store/group/OTG-Adapter/2008001_506958276.html"
         }
     ]
 }
