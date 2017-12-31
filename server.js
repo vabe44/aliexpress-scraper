@@ -95,7 +95,7 @@ app.get('/images/:index', function (req, res) {
     }
 });
 
-app.get('/usamsimages', function (req, res) {
+app.get('/downloadimages', function (req, res) {
 
     async function downloadIMG(options) {
         try {
@@ -107,15 +107,15 @@ app.get('/usamsimages', function (req, res) {
     }
 
     var rows = [];
-    const fileName = "./products/USAMS/all" + ".json";
-    var rock = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+    const fileName = "./products/EASEHOLD/images" + ".json";
+    var json = JSON.parse(fs.readFileSync(fileName, 'utf8'));
 
-    for (let i = 0; i < rock.length; i++) {
-        const product = rock[i];
+    for (let i = 0; i < json.length; i++) {
+        const product = json[i];
 
         const options = {
-            url: product.image,
-            dest: './products/USAMS/images/' + product.sku + ".jpg"
+            url: product.IMAGELINK,
+            dest: './products/EASEHOLD/images/' + product.IMAGENAME
         }
         // sleep.sleep(2);
         downloadIMG(options)

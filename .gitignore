@@ -58,5 +58,5 @@ typings/
 .env
 
 # scraped images
-products/ROCK/images
-products/USAMS/images
+products/*/images
+*.zip
